@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  background: pink;
+  border-bottom: 1px solid darkgrey;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  flex: 0 1 auto;
+  margin-right: 1rem;
+}
+
+li:last-child {
+  margin-right: 0
+}
+
+#message {
+  font-size: 0.5rem;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  #message {
+    font-size: 1rem;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  #message {
+    font-size: 1.5rem;
+  }
+}
+
