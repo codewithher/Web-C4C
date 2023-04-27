@@ -1,50 +1,105 @@
+* {
+  padding: 0; 
+  margin:0;
+  overflow-x :hidden; 
+  box-sizing: border-box;
+}
+
 html {
   height: 100%;
-  width: 100%;
+  width:100%;
+}
+
+
+#hero-pic {
+  background: url(Hero\ Background.jpg);
+  background-size: cover;
+  min-height:330px;
+}
+
+.hero-content{
+  padding: 1rem;
+  width:100%;
+}
+
+.hero{
+  background-color: #F8F8F3;
+}
+
+h1{
+  font-size: 36px;
+  margin-top:0.5rem;
+}
+
+h2{
+  font-size: 12px;
+  color: #356E7A;
+}
+
+p{  
+  margin-top:1.125rem;
   font-size: 16px;
+  color:#7B7B7B;
 }
 
-.hide {
-  display: none;
+#cookies{
+  background-color: #C7742E; 
+  padding: 1rem;
 }
 
-header {
-  background: pink;
-  border-bottom: 1px solid darkgrey;
+#cookieHeader{
+  font-size: 18px;
+  text-decoration-line: underline;
+  color:white;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
+#cookiesSubheader{
+  font-size: 14px;
+  color:white;
 }
 
-li {
-  flex: 0 1 auto;
-  margin-right: 1rem;
+#thinmint{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-li:last-child {
-  margin-right: 0
+
+#aboutMe{
+  padding: 1rem 2.5rem;
 }
 
-#message {
-  font-size: 0.5rem;
+#aboutContent{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* TABLET */
-@media (min-width: 768px) {
-  #message {
-    font-size: 1rem;
-  }
+#aboutHeader{
+  font-size: 18px;
 }
 
-/* DESKTOP */
-@media (min-width: 1200px) {
-  #message {
-    font-size: 1.5rem;
-  }
+#introText{
+  font-size: 14px;
+  color: #5C5C5C;
 }
 
+#profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers 
+.aboutMe::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
