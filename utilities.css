@@ -6,11 +6,41 @@ header {
   width: 100%;
 }
 
-
-a{
+a {
   text-decoration: none;
-  color: #AED4DC;
+  color: #393939;
   font-size: 20px;
+}
+
+.header-menu{
+  position: relative;
+}
+
+.header-menu ul{
+  background: #fff;
+  display: block;
+  height: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.25em 0.75em 1em 0.75em;
+  transform: translateX(-350px);
+  transition: transform .5s;
+  width: 350px;
+  z-index: 999;
+}
+
+.header-menu.open ul{
+  transform: translateX(0);
+}
+
+.header-menu-link {
+  display: block;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .menu{
