@@ -1,12 +1,12 @@
 [
-    {
-    name: 'Samoas',
-    description: 'A caramel cookie.',
-    image: 'samoas'
+  {
+    "name": "Samoas",
+    "description": "A caramel cookie.",
+    "image": "samoas"
   },
   {
-    name: 'Thin Mints',
-    description: 'A chocolate mint cookie.',
-    image: 'thinmints'
+    "name": "Thin Mints",
+    "description": "A chocolate mint cookie.",
+    "image": "thinmints"
   }
 ]

@@ -1,8 +1,6 @@
-const mobileMenuTrigger = document.getElementById('mobile-menu-trigger')
-const mobileMenu = document.getElementById('header-nav')
+const button = document.getElementById('button')
 
-const toggleMobileMenu = () => {
-  mobileMenu.classList.toggle('open')
+const toggleMessage = () => {
+  document.getElementById('message').classList.toggle('hide')
 }
-
-mobileMenuTrigger.addEventListener('click', toggleMobileMenu)
+button.addEventListener('click', toggleMessage)
