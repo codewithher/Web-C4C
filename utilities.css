@@ -23,9 +23,9 @@ a {
   overflow-y: auto;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   padding: 0.25em 0.75em 1em 0.75em;
-  transform: translateX(-350px);
+  transform: translateX(350px);
   transition: transform .5s;
   width: 350px;
   z-index: 999;
@@ -36,9 +36,9 @@ a {
 }
 
 .header-menu-link {
-  display: block;
+  display: inline-block;
   font-weight: 700;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   white-space: nowrap;
 }
