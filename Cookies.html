@@ -7,14 +7,10 @@
   <title>C4C Website</title>
   <link href="Cookies.css" rel="stylesheet" type="text/css" />
   <link href="utilities.css" rel="stylesheet" type="text/css" />
-  <script src="Cookies.js"></script>
 
 </head>
 
 <body>
-  <script src="script.js"></script>
-
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 
   <header class="flex ai-c jc-sb">
     <a class="logo" href="index.html">Anchal's Cookie Site</a>
@@ -34,60 +30,27 @@
   </header>
 
   <main>
-    
-    <!--SAMOAS-->
-    <div id="samoas" class="flex ai-c jc-se"">
-      <div>
-        <button class="cookieBtn" onclick="showSamoas()"  >
-                <img src="samoas 1.svg"  alt="samoas">
-                <p style="font-size: 18px;"><i><u>Samoas</u></i></p>
-                <p style="color:#737373;">Learn More</p>
-        </button>
-      </div>
-      <div>
-        <button class="cookieBtn" onclick="hideSamoas()" id="samoasInfo" style="visibility: hidden;">
-                <p style="color: #5C5C5C; font-size: 1rem;"><i>An oatmeal sandwich cookie with a peanut butter filling.</i></p> 
-                <img class="closeBtn" src="Close Button.png" alt="close button">
-        </button>
-      </div>
-    </div>
-
-    <div class="button centered-container">
-        <a class href="Cookies.html" style="margin-top:1.5rem; color:#737373;">Shop Now</a>
-    </div>
-
-    
-
-    <!--
-    <h1 style="text-align: center;"><i>Cookies Catalog</i></h1>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <button onclick="showSamoas()" >
-                <img src="samoas 1.svg"  alt="samoas">
-                <p><i><u>Samoas</u></i></p>
-                <p style="color:#737373;">Learn More</p>
-            </button>
-          </td>
-          <td>
-            <button onclick="hideSamoas()" id="samoasInfo" style  ="visibility: hidden;">
-                <p><i>An oatmeal sandwich cookie with a peanut butter filling.</i></p> 
-                <p1 style="font-size:14px; color:#737373; margin-top: 1rem;">Go Back</p1>
-            </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
+    <!-- 
+    [EXERCISE]
+    What do we need to do to add the CSS for the header??
     -->
+    <h1>Cookies Catalog</h1>
+    <!-- 
+    [EXERCISE]
+    What should tag we add on line 40 to call the cookie card component? 
+    -->
+    <ul class="cookie-cards">
+      <cookie-cards></cookie-cards>
+    </ul>
+    <div class="centered-container">
+      <a class="button" href="Cookies.html">Shop Now</a>
+    </div>
 
-    
-    
   </main>
 
-  
-  
 </body>
+<script src="script.js"></script>
+<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+<script type="module" src="assets/js/components/cookieCards/cookie-cards.js" />
 
 </html>
