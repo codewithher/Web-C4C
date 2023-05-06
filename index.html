@@ -31,79 +31,61 @@
 
   <main>
 
-<!-- 
-[EXERCISE] 
-Update all top-level parent containers for each section to use the <section> tag. Update all id's on these new sections to use class instead. We do not want to use id unless we are associating JS interactivity with a DOM element. 
--->
 
-<!-- 
-[EXERCISE] 
-Remove all inline styling, make a css class for it, and then apply the styling to the div using the class instead.
--->
-    
     <!--HERO-->
-    <div class="full-container ai-fe jc-sb">
-      <div id="hero-pic"></div>
-      <div id="hero" class="hero-content flex wrap">
-<!-- 
-[EXERCISE]        
-When reviewing Figma, the naming of the layers represent their intended HTML tag and classname. 
-
-To find the name of the layer, look in the left sidebar.
-        
-Review the tag and class assignments for this section.
-        
-What do you think should change here?
-        
-Most often, span and p tags are used for text elements. The p is used for block-level paragraphs, whereas span is used for inline text or any unique text situations. 
-        
-The p tag is commonly referred to as "Body Copy" and represents the core styling of the p tag. This means we can apply the default text styling of our app directly to the native p tag in our CSS.
-
-[TIP]        
-When styling out applications, move all styling into a CSS class. Then, apply that css class to the desired tag to apply the styling treatment.
--->
-
-<!-- 
-[EXERCISE] 
-When applying css, we generally want anything layout related to be applied to a parent div, or container. Everything inside of the container should concern itself with veritcal spacing, color treatments or font treatments. This is suggested because most text tags come with native block-level styling, (they will automatically be 100% width), thus we do not need to worry about their horizontal spacing.
-
-Remove all instances of full-container and centered-container from within the hero-content container. If you want to use centered-container for the button, make a div for it, and then nest the button within it.
--->
-        
-        <h2 class="full-container">TREAT YOURSELF</h2>
-        <h1 class="full-container"><i>Order Cookies</i></h1>
-        <p class="full-container">Satisfy your sweet tooth while supporting the
-          local community via a young entrepreneur. </p>
-          <a class="button centered-container" href="Cookies.html" style=" margin-top:1.5rem;">Shop Now</a>
+    <section class="hero">
+      <div class="hero-pic"></div>
+      <div class="hero-content flex wrap ai-fe jc-sb">
+        <h2 class="hero-subheader">TREAT YOURSELF</h2>
+        <h1 class="hero-header">Order Cookies</h1>
+        <p class="hero-copy">Satisfy your sweet tooth while supporting the local community via a young entrepreneur. </p>
       </div>
-    </div>
+      <div class="CTA-button">
+          <a class="button-text" href="cookies.html">
+            <span class="button-hover-underline">Show Now</span>
+          </a>
+      </div>
+    </section>
     
 
     <!--COOKIE-->
-    <div id="cookies" class="flex ai-c jc-se wrap">
-          <div style="width:50%;">
-            <h1 id="cookieHeader"><u>A Delicious Tradition</u></h1>
-            <p id="cookiesSubheader">Starting with just Do-Si-Dos, Trefoils and Thin Mints, Girl Scout Cookies now offer 12 different flavors to choose from!</p>
+    <section class="cookie">
+        <div class="cookie-content flex ai-c jc-se wrap">
+          <div>
+            <h2 class="cookie-subheader">A Delicious Tradition</h2>
+            <p class="cookie-bodycopy">Starting with just Do-Si-Dos, Trefoils and Thin Mints, Girl Scout Cookies now offer 12 different flavors to choose from!</p>
           </div>
-          <div style="width:50%;">
-            <img id="thinmint" src="thinmints 1.svg" alt="Picture of Thin Mint">
+          <div>
+            <img class="thinmint-img" src="thinmints 1.svg" alt="Picture of Thin Mint">
           </div>
-        <a class="button centered-container" href="Cookies.html" style=" margin-top:1.5rem;">View Cookie Catalog</a>
-    </div>
+        </div>
+        <div class="CTA-button">
+          <a class="button-text" href="cookies.html">
+            <span class="button-hover-underline">View Cookie Catalog</span>
+          </a>
+        </div>
+    </section>
 
     
     <!--ABOUT ME-->
-    <div id="aboutMe" class="flex ai-c jc-se wrap">
-        <div style="width:50%;">
-          <img class="profile" src="Anchal.jpg" alt="Picture of Anchal" style="height:10rem;">
+    <section class="about-me">
+        <div class="about-me-content flex ai-c jc-se wrap">
+          <div>
+            <img class="profile" src="Anchal.jpg" alt="Picture of Anchal">
+          </div>
+          <div>
+            <h2 class="about-subheader">Your Cookie Saleswoman</h2>
+            <p>Welcome!</p> 
+            <p class="intro-text">My name is Anchal.</p>
+            <p class="goal-text">This year, my goal is to sell 800 packages of cookies!</p>
+          </div>
         </div>
-        <div id="aboutContent" style="width:50%;">
-          <h1 id="aboutHeader"><u>Your Cookie Saleswoman</u></h1>
-          <p id="introText">Welcome! <br> My name is Anchal. <br><br> This year, my goal is to sell 800 packages of cookies!</p>
+        <div class="CTA-button">
+          <a class="button-text" href="Goals.html">
+            <span class="button-hover-underline">Learn About My Goals</span>
+          </a>
         </div>
-      <a class="button centered-container" href="Cookies.html" style=" margin-top:1.5rem;">Learn About My Goals</a>
-    </div>
-
+    </section>
 
   </main>
 

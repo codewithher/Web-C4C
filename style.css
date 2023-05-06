@@ -18,11 +18,24 @@ html {
   width:100%;
 }
 
+p{
+  font-size: 14px;
+  color: #5C5C5C;
+  line-height: 19px;
+}
 
-#hero-pic {
+.hero{
+  background-color: #F8F8F3;
+}
+
+.hero-pic {
   background: url(Hero\ Background.jpg);
   background-size: cover;
   min-height:330px;
+}
+
+.hero-content *{
+  flex-basis: 100%;
 }
 
 .hero-content{
@@ -30,84 +43,77 @@ html {
   width:100%;
 }
 
-.hero{
-  background-color: #F8F8F3;
-}
-
-h1{
+.hero-header{
+  font-style: italic;
+  font-weight: 900;
   font-size: 36px;
-  margin-top:0.5rem;
+  color: #000000;
 }
 
-h2{
+.hero-subheader{
   font-size: 12px;
   color: #356E7A;
 }
 
-p{  
-  margin-top:1.125rem;
+.hero-copy{
+  font-weight: 400;
   font-size: 16px;
-  color:#7B7B7B;
+  color: #5C5C5C;
+  letter-spacing: -0.04em;
 }
 
-#cookies{
+.cookie{
   background-color: #C7742E; 
+}
+
+.cookie-content{
   padding: 1rem;
 }
 
-#cookieHeader{
+.cookie-content *{
+  flex-basis: 50%;
+}
+
+.cookie-subheader{
   font-size: 18px;
   text-decoration-line: underline;
-  color:white;
+  color:#ffff;
 }
 
-#cookiesSubheader{
+.cookie-bodycopy{
   font-size: 14px;
-  color:white;
+  color:#ffff;
+  letter-spacing: -0.04em;
 }
 
-#thinmint{
+.thinmint-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-#aboutMe{
-  padding: 1rem 2.5rem;
+.about-me-content{
+  padding: 1rem;
 }
 
-#aboutContent{
+.about-me-content *{
+  flex-basis: 50%;
+}
+
+.profile{
+  height:10rem;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#aboutHeader{
+.about-subheader{
   font-size: 18px;
+  text-decoration-line: underline;
+  color: #000000;
+  line-height: 23px;
 }
 
-#introText{
-  font-size: 14px;
-  color: #5C5C5C;
+.intro-text{
+  margin-top: 0;
 }
-
-#profile{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers 
-.aboutMe::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-*/
