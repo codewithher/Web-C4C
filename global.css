@@ -1,0 +1,94 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #356E7A;
+  padding: 1rem;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #AED4DC;
+  font-size: 20px;
+}
+
+.menu{
+  display:block;
+  cursor:pointer;
+  background-color: #356E7A;
+  border: none;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.bar{
+  display:block;
+  width:25px;
+  height:3px;
+  margin:5px auto;
+  background-color:white;
+}
+
+.CTA-button{
+    background-color: #EEDB76;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 328px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.CTA-button:hover{
+  background: #4C4B17;
+}
+
+.CTA-button:hover .button-text{
+  color: #ffff;
+}
+
+.button-text{
+  color: #4C4B17;
+}
+
+.button-hover-underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-hover-underline:after  { 
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  height: 1px;
+  transition-property: width;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.CTA-button:hover .button-hover-underline:after,
+.CTA-button:focus .button-hover-underline:after,
+.CTA-button:active .button-hover-underline:after {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+footer{
+  margin-top: 1rem;
+  text-align: center;
+  padding: 3px;
+  background-color: #D9D9D9;
+}
+
