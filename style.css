@@ -29,7 +29,7 @@ p{
 }
 
 .hero-pic {
-  background: url(Hero\ Background.jpg);
+  background: url('hero.jpg');
   background-size: cover;
   min-height:330px;
 }
