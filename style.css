@@ -1,3 +1,11 @@
+/* When naming classes, it is best practice to use kebab style naming as opposed to camel case 
+kebab: about-me 
+vs 
+camelcase: aboutMe
+
+More often than not, you will see camelcase used for JS and many backend languages. Kebab case is mostly used in html, css, and for naming image assets.
+*/
+
 * {
   padding: 0; 
   margin:0;
@@ -10,11 +18,18 @@ html {
   width:100%;
 }
 
+.hero{
+  background-color: #F8F8F3;
+}
 
-#hero-pic {
-  background: url(Hero\ Background.jpg);
+.hero-pic {
+  background: url('hero.jpg');
   background-size: cover;
   min-height:330px;
+}
+
+.hero-content *{
+  flex-basis: 100%;
 }
 
 .hero-content{
@@ -22,84 +37,75 @@ html {
   width:100%;
 }
 
-.hero{
-  background-color: #F8F8F3;
-}
-
 h1{
+  font-style: italic;
+  font-weight: 900;
   font-size: 36px;
-  margin-top:0.5rem;
+  color: #000000;
 }
 
-h2{
-  font-size: 12px;
-  color: #356E7A;
-}
 
-p{  
-  margin-top:1.125rem;
+
+.hero-copy{
+  font-weight: 400;
   font-size: 16px;
-  color:#7B7B7B;
+  color: #5C5C5C;
+  letter-spacing: -0.04em;
+  margin-top:1.125rem;
 }
 
-#cookies{
+.cookie{
   background-color: #C7742E; 
+}
+
+.cookie-content{
   padding: 1rem;
 }
 
-#cookieHeader{
-  font-size: 18px;
-  text-decoration-line: underline;
-  color:white;
+.cookie-content *{
+  flex-basis: 50%;
 }
 
-#cookiesSubheader{
+.cookie-subheader{
+  color:#ffff;
+}
+
+.cookie-bodycopy{
   font-size: 14px;
-  color:white;
+  color:#ffff;
+  letter-spacing: -0.04em;
+  margin-top: 1rem;
 }
 
-#thinmint{
+.thinmint-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-#aboutMe{
-  padding: 1rem 2.5rem;
+.about-me{
+  margin-top: 2rem;
 }
 
-#aboutContent{
-  margin-left: auto;
-  margin-right: auto;
+.about-me-content{
+  padding: 1rem;
 }
 
-#aboutHeader{
-  font-size: 18px;
+.about-me-content *{
+  flex-basis: 50%;
 }
 
-#introText{
-  font-size: 14px;
-  color: #5C5C5C;
-}
-
-#profile{
+.profile{
+  height:10rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/*
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
+.intro-text{
+  margin-top: 0;
 }
 
-/* Clear floats after image containers 
-.aboutMe::after {
-  content: "";
-  clear: both;
-  display: table;
+.goal-text{
+  margin-top: 1rem;
 }
-*/
