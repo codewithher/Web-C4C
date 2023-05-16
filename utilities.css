@@ -11,6 +11,14 @@
   flex-wrap: wrap;
 }
 
+.col{
+  flex-direction: column;
+}
+
+.nowrap{
+  flex-wrap: wrap;
+}
+
 .flex {
   display: flex;
 }
