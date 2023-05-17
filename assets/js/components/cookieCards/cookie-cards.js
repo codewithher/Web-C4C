@@ -24,7 +24,7 @@ class CookieCards extends HTMLElement {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
   
   // HTML MARKUP
-  // Place this code inside of the render() function, nested inside of the .map function.
+  // Place this code inside of this.innerHTML, nested inside of the .map function after reviewing the Mozilla article.
   
   // <li class="cookie-card">
   //   <div class="card-front">
