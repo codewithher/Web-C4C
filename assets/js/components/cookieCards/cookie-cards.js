@@ -19,9 +19,13 @@ class CookieCards extends HTMLElement {
   }
 
 
-  // [EXERCISE] What should we do here to iterate through our cookie data array to output the markup?
+  // [EXERCISE] What should we do here to loop through our cookie data array to output the markup? 
+
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
   
-  // MARKUP
+  // HTML MARKUP
+  // Place this code inside of the render() function, nested inside of the .map function.
+  
   // <li class="cookie-card">
   //   <div class="card-front">
   //       <img class="cookie-image" src="assets/images/cookies/${cookie.image}.png" alt="${cookie.name}">
