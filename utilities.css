@@ -1,78 +1,12 @@
-header {
-  position: sticky;
-  top: 0;
-  background-color: #356E7A;
-  padding: 1rem;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: #393939;
-  font-size: 20px;
-}
-
-.header-menu{
-  position: relative;
-}
-
-.header-menu ul{
-  background: #fff;
-  display: block;
-  height: 100%;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 0.25em 0.75em 1em 0.75em;
-  transform: translateX(350px);
-  transition: transform .5s;
-  width: 350px;
-  z-index: 999;
-}
-
-.header-menu.open ul{
-  transform: translateX(0);
-}
-
-.header-menu-link {
-  display: inline-block;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-.menu{
-  display:block;
-  cursor:pointer;
-  background-color: #356E7A;
-  border: none;
-}
-
-
-li{
-  list-style-type: none;
-}
-
-.bar{
-  display:block;
-  width:25px;
-  height:3px;
-  margin:5px auto;
-  background-color:white;
-}
-
 .hide {
   display: none;
 }
 
-
-.full-container{
-  width:100%;
+.full-container {
+  width: 100%;
 }
 
-.wrap{
+.wrap {
   flex-wrap: wrap;
 }
 
@@ -81,68 +15,28 @@ li{
 }
 
 /*places text near bottom, vertical*/
-.ai-fe{
-  align-items:flex-end;
+.ai-fe {
+  align-items: flex-end;
 }
 
-.ai-c{
-  align-items:center;
+.ai-c {
+  align-items: center;
 }
 
-.jc-se{
+.jc-se {
   justify-content: space-evenly;
 }
 
-.jc-sa{
+.jc-sa {
   justify-content: space-around;
 }
 /*horizontal*/
-.jc-sb{
+.jc-sb {
   justify-content: space-between;
 }
 
-.centered-container{
+.centered-container {
   text-align: center;
   margin: 0 auto;
   margin-top: 1rem;
-}
-
-.button{
-    background-color: #EEDB76;
-    color: #4C4B17;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    border: none;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 328px;
-    height: 50px;
-  overflow: hidden
-}
-
-.button:hover{
-  background: #E6D57E;
-}
-
-.button:hover a:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  transform: scaleX(0);
-}
-
-.button:hover::after {
-  transform: scaleX(1);
-}
-
-footer{
-  margin-top: 1rem;
-  text-align: center;
-  padding: 3px;
-  background-color: #D9D9D9;
 }

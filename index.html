@@ -1,88 +1,113 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>C4C Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="global.css" rel="stylesheet" type="text/css" />
+    <link href="utilities.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>C4C Website</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="utilities.css" rel="stylesheet" type="text/css" />
+  <body>
+    <header class="flex ai-c jc-sb">
+      <a class="logo" href="index.html">Anchal's Cookie Site</a>
+      <nav id="header-nav" class="header-menu">
+        <ul>
+          <li><a class="button" href="index.html">Shop for Cookies</a></li>
+          <li>
+            <a class="header-menu-link" href="index.html">Cookie Catalog</a>
+          </li>
+          <li>
+            <a class="header-menu-link" href="index.html"
+              >My Hall of Awesome Goals</a
+            >
+          </li>
+          <li><a class="header-menu-link" href="index.html">Home</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="mobile-menu-trigger" class="menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </header>
 
-</head>
+    <main>
+      <!--HERO-->
+      <section class="hero">
+        <div class="hero-pic"></div>
+        <div class="hero-content flex wrap ai-fe jc-sb">
+          <h2 class="subheader">Treat Yourself</h2>
+          <h1 class="hero-header">Order Cookies</h1>
+          <p class="hero-copy">
+            Satisfy your sweet tooth while supporting the local community via a
+            young entrepreneur.
+          </p>
+        </div>
+        <a class="CTA-button" href="Cookies.html">
+          <span class="button-text button-hover-underline">Shop Now</span>
+        </a>
+      </section>
 
-<body>
+      <!--COOKIE-->
+      <section class="cookie">
+        <div class="cookie-content flex ai-c jc-se wrap">
+          <div>
+            <h2 class="cookie-subheader">A Delicious Tradition</h2>
+            <p class="cookie-bodycopy">
+              Starting with just Do-Si-Dos, Trefoils and Thin Mints, Girl Scout
+              Cookies now offer 12 different flavors to choose from!
+            </p>
+          </div>
+          <div>
+            <img
+              class="thinmint-img"
+              src="thinmints 1.svg"
+              alt="Picture of Thin Mint"
+            />
+          </div>
+        </div>
+        <a class="CTA-button" href="Cookies.html">
+          <span class="button-text button-hover-underline"
+            >View Cookie Catalog</span
+          >
+        </a>
+      </section>
 
-  <header class="flex ai-c jc-sb">
-    <a class="logo" href="index.html">Anchal's Cookie Site</a>
-    <nav id="header-nav" class="header-menu">
-      <ul>
-        <li><a class="button" href=index.html>Shop for Cookies</a></li>
-        <li><a class="header-menu-link" href=index.html>Cookie Catalog</a></li>
-        <li><a class="header-menu-link" href=index.html>My Hall of Awesome Goals</a></li>
-        <li><a class="header-menu-link" href=index.html>Home</a></li>
-      </ul>
-    </nav>
-    <button type="button" id="mobile-menu-trigger" class="menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-  </header>
+      <!--ABOUT ME-->
+      <section class="about-me">
+        <div class="about-me-content flex ai-c jc-se wrap">
+          <div>
+            <img class="profile" src="Anchal.jpg" alt="Picture of Anchal" />
+          </div>
+          <div>
+            <h2 class="about-subheader">Your Cookie Saleswoman</h2>
+            <p>Welcome!</p>
+            <p class="intro-text">My name is Anchal.</p>
+            <p class="goal-text">
+              This year, my goal is to sell 800 packages of cookies!
+            </p>
+          </div>
+        </div>
+        <a class="CTA-button" href="Goals.html">
+          <span class="button-text button-hover-underline"
+            >Learn About My Goals</span
+          >
+        </a>
+      </section>
+    </main>
 
+    <!--FOOTER-->
+    <footer>
+      <img src="Logo 1.svg" alt="CWH Logo" />
+    </footer>
+  </body>
 
-  <main>
-
-    <!--HERO-->
-    <div class="full-container ai-fe jc-sb">
-      <div id="hero-pic"></div>
-      <div id="hero" class="hero-content flex wrap">
-        <h2 class="full-container">TREAT YOURSELF</h2>
-        <h1 class="full-container"><i>Order Cookies</i></h1>
-        <p class="full-container">Satisfy your sweet tooth while supporting the
-          local community via a young entrepreneur. </p>
-        <a class="button centered-container" href="Cookies.html" style=" margin-top:1.5rem;">Shop Now</a>
-      </div>
-    </div>
-
-
-    <!--COOKIE-->
-    <div id="cookies" class="flex ai-c jc-se wrap">
-      <div style="width:50%;">
-        <h1 id="cookieHeader"><u>A Delicious Tradition</u></h1>
-        <p id="cookiesSubheader">Starting with just Do-Si-Dos, Trefoils and Thin Mints, Girl Scout Cookies now offer 12
-          different flavors to choose from!</p>
-      </div>
-      <div style="width:50%;">
-        <img id="thinmint" src="thinmints 1.svg" alt="Picture of Thin Mint">
-      </div>
-      <a class="button centered-container" href="Cookies.html" style=" margin-top:1.5rem;">View Cookie Catalog</a>
-    </div>
-
-
-    <!--ABOUT ME-->
-    <div id="aboutMe" class="flex ai-c jc-se wrap">
-      <div style="width:50%;">
-        <img class="profile" src="Anchal.jpg" alt="Picture of Anchal" style="height:10rem;">
-      </div>
-      <div id="aboutContent" style="width:50%;">
-        <h1 id="aboutHeader"><u>Your Cookie Saleswoman</u></h1>
-        <p id="introText">Welcome! <br> My name is Anchal. <br><br> This year, my goal is to sell 800 packages of
-          cookies!</p>
-      </div>
-      <a class="button centered-container" href="Goals.html" style="margin-top:1.5rem;">Learn About My Goals</a>
-    </div>
-
-
-  </main>
-
-  <!--FOOTER-->
-  <footer>
-    <img src="Logo 1.svg" alt="CWH Logo">
-  </footer>
-
-</body>
-
-<script src="script.js"></script>
-<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-
+  <script src="script.js"></script>
+  <script
+    src="https://replit.com/public/js/replit-badge-v2.js"
+    theme="dark"
+    position="bottom-right"
+  ></script>
 </html>
