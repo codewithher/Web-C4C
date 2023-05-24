@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Adventurefules",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.",
+    "image": "adventurefuls"
+  },
+  {
+    "name": "Do-si-dos",
+    "description": "An oatmeal sandwich cookie with a peanut butter filling.",
+    "image": "dosidos"
+  },
+  {
+    "name": "Lemon-ups",
+    "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.",
+    "image": "lemonups"
+  },
+  {
+    "name": "Raspberry Rallys",
+    "description": "A new flavor to try! Treat yourself with a raspberry flavored cookie!",
+    "image": "raspberryrally"
+  },
+  {
+    "name": "S'mores",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.",
+    "image": "smores"
+  },
+  {
+    "name": "Samoas",
+    "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.",
+    "image": "samoas"
+  },
+  {
+    "name": "Tagalongs",
+    "description": "A chocolate covered cookie patty with a peanut butter filling.",
+    "image": "tagalongs"
+  },
+  {
+    "name": "Thin Mints",
+    "description": "A chocolate mint cookie covered in extra mint chocolate frosting.",
+    "image": "thinmints"
+  },
+  {
+    "name": "Toffeetastic",
+    "description": "A gluten-free shortbread cookie with toffee bits.",
+    "image": "toffeetastic"
+  },
+  {
+    "name": "Trefoils",
+    "description": "A traditional shortbread sugar cookie.",
+    "image": "trefoils"
+  }
+]

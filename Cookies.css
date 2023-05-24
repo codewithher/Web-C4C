@@ -10,33 +10,60 @@ html {
   width:100%;
 }
 
-#samoas{
-  padding: 1rem;
-}
-
-table{
-  margin:auto;
-}
-
-td{
+.cookie-header{
   text-align: center;
-  width:50%;
+  font-style: italic;
+  padding: 2.5rem;
 }
 
+.cookie-name{
+  color: #000000;
+  text-decoration: underline;
+  font-style: italic;
+}
 
-.cookieBtn{
-  background-color: #CCCCCC;
+.cookie-container{
+  text-align: center;
+}
+
+ul{
+  display: inline-block;
+}
+
+.cookie-card{
+  background-color: #DFECEF;
   box-shadow: 2px 2px 5px;
   padding:1rem;
   text-align: center;
-  width: 150px;
-  height: 185px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #DFECEF;
+  min-height: 210px;
+  max-width: 200px;
+  width:100%;
 }
 
-.closeBtn{
-  width: 20px;
-  height: 20px;
-  margin-top:0.8rem;
+.cookie-front{
+  display: block;
 }
 
+.card-back{
+  display: none;
+}
+
+.cookie-image{
+  min-width: 100px;
+  width: 100%;
+}
+
+.cookie-description{
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+button{
+  border: none;
+  background: none;
+  font-size: 0.75rem;
+  color: #555555;
+  cursor: pointer;
+}
