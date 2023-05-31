@@ -13,30 +13,44 @@
 
   <header class="flex ai-c jc-sb">
       <a class="logo" href="index.html">Anchal's Cookie Site</a>
+
+      <div id="opacityLayer"></div>
       
-      <nav id="header-nav" class="header-menu-sidebar">
-        <ul id="header-ul">
-          <li><a class="header-menu-link" href="Cookies.html">Shop for Cookies</a></li>
-          <li>
-            <a class="header-menu-link" href="Cookies.html">Cookie Catalog</a>
-          </li>
-          <li>
-            <a class="header-menu-link" href="Goals.html">My Hall of Awesome Goals</a>
-          </li>
-          <li><a class="header-menu-link" href="index.html">Home</a></li>
-        </ul>
-      </nav>
-      <button type="button" id="mobile-menu-trigger" class="menu" onclick="toggleMenu()">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-    </header>
+      <div id="menu" class="menu-div">
+        
+        <nav id="header-nav" class="header-menu-sidebar">
+          <ul class="header-ul">
+            <div class="nav-content">
+            <li><a class="header-menu-link" href="Cookies.html">Shop for Cookies</a></li>
+            <li>
+              <a class="header-menu-link" href="Cookies.html">Cookie Catalog</a>
+            </li>
+            <li>
+              <a class="header-menu-link" href="Goals.html">My Hall of Awesome Goals</a>
+            </li>
+            <li><a class="header-menu-link" href="index.html">Home</a></li>
+            </div>
+          </ul>
+        </nav>
+
+        <button type="button" id="mobile-menu-trigger-close" class="close-btn ">
+          <img class="close-img" src="close-btn.svg" alt="Close Button">
+        </button>
+        
+      </div>
+
+        <button type="button" id="mobile-menu-trigger-open" class="open-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+  </header>
 
   <main style="margin:1rem;">
     <h1 style="text-align: center;"><i>Hall of Awesome Goals</i></h1>
     <h2><i><u><br>Sales Initiatives</u></i></h2>
-    <p style="color: #7B7B7B">With your support, my troops will be able to:</p>
+    <p style="color: #7B7B7B">With your support, my troops will be able to:</p> 
     <img src="online-community-icon 1.svg" alt="Online Community Goals">
     
     

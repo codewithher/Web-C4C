@@ -7,25 +7,10 @@ html {
   margin: 0;
 }
 
-li{
-  list-style-type: none;
-}
-
-nav{
-  background-color: #356E7A;
-  padding: 1rem;
-  width: 100%;
-}
-
 a{
   text-decoration: none;
   color: #AED4DC;
   font-size: 20px;
-}
-
-.button{
-  text-align: center;
-  margin: 0 auto;
 }
 
 button{
