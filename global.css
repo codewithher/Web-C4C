@@ -25,25 +25,19 @@ header {
   opacity: 1;
 }
 
-.menu-div.open .header-menu-sidebar ul{
+.menu-div.open{
   transform: translateX(0);
-  padding: 0;
-  list-style: none;
 }
 
 .menu-div.open .header-menu-sidebar ul li{
   margin: 0 0 0 30px;
 }
 
-.menu-div.open .close-btn{
-  opacity: 1;
-  transition-delay: 250ms;
-  transition-property: opacity;
-}
 
-.header-ul{
+.menu-div{
   position: fixed;
   background: #fff;
+  list-style: none;
   display: block;
   height: 100%;
   overflow-y: auto;
@@ -74,14 +68,13 @@ header {
   right: 0;
   z-index: 1000;
   margin: 15px 15px;
-  opacity: 0;
   background: none;
   border: none;
   cursor: pointer;
 }
 
 .close-img{
-  width:25px;
+  width:20px;
 }
 
 .open-btn{
@@ -104,86 +97,6 @@ header {
   color: #AED4DC;
   font-size: 20px;
 }
-
-/*
-.header-menu-sidebar.open ul{
-  transform: translateX(0);
-  padding: 0;
-  list-style: none;
-}
-
-.header-menu-sidebar.open ul li{
-  margin: 0 0 0 30px;
-}
-
-.header-menu-sidebar.open .menu .icon-open{
-  display: none;
-}
-*/
-
-/* other method
-.header-menu-sidebar ul{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.header-menu-sidebar ul li{
-  position:absolute; 
-  left:0;
-  margin: 0 0 0 30px;
-}
-
-.menu{
-  display:block;
-  cursor:pointer;
-  background-color: #356E7A;
-  border: none;
-}
-
-.header-menu-link{
-  display: none;
-}
-
-.open-nav{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 255px;
-  padding: 0 0.5rem;
-  display: block;
-  height: calc(100vh - 60px);
-  background-color: #FFFF;
-  z-index: 1000;
-}
-
-.open-link{
-  display:block;
-  height: 60px;
-  padding: 0 0.5rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #000000;
-}
-
-.open-ul{
-  display: block;
-  padding-top: 1rem;
-  overflow: hidden;
-}
-
-.header-menu-sidebar ul li a:hover{
-  color: #356E7A;
-}
-
-.menu{
-  width: 60px;
-  height: 100%;
-  cursor: pointer;
-}
-*/
-
 
 h2{
   font-size: 18px;
