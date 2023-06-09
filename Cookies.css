@@ -21,23 +21,48 @@
 }
 
 .cookie-card {
-  background-color: #DFECEF;
-  border: 1px solid #DFECEF;
-  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 150px;
-  min-height: 210px;
-  padding: 16px;
-  text-align: center;
-  width:100%;
+  background-color: transparent;
+  width: 150px;
+  height: 210px;
+  perspective: 1000px;
+  position: relative;
 }
 
 @media (min-width: 768px) {
   .cookie-card {
-    max-width: 200px;
+    width: 200px;
   }
+}
+
+.cookie-card-ui {
+  background-color: #DFECEF;
+  border: 1px solid #DFECEF;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cookie-card-back {
+  transform: rotateY(180deg);
+}
+
+.cookie-card.card-flip .cookie-card-front {
+  transform: rotateY(-180deg);
+}
+
+.cookie-card.card-flip .cookie-card-back {
+  transform: rotateY(0);
 }
 
 .cookie-image-container {
@@ -56,7 +81,7 @@
 .cookie-name {
   color: #000000;
   display: inline-block;
-  margin: 10px 0;
+  margin: 10px 0 20px;
   position: relative;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -78,6 +103,7 @@
   text-align: center;
   font-style: italic;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .cookie-card-front-cta-container {
@@ -85,7 +111,7 @@
   position: relative;
 }
 
-.cookie-card-front-cta-container:hover .cookie-front-cta:after {
+.cookie-card-front-cta-container:hover .cookie-card-front-cta:after {
   content: '';
   height: 1px;
   background-color: #555555;
@@ -95,26 +121,20 @@
   width: 100%;
 }
 
-.cookie-front-cta {
+.cookie-card-button {
   background: none;
   border: none;
-  color: #555555;
   cursor: pointer;
+}
+
+.cookie-card-front-cta {
+  color: #555555;
   font-size: 12px;
 }
 
-.cookie-card-front {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  visibility: visible;
-}
-
-.cookie-card-back {
-  visibility: hidden;
-  opacity: 0;
-  width: 0;
-  height: 0;
+.cookie-card-back-cta {
+  position: absolute;
+  bottom: 16px;
 }
 
 .CTA-button {

@@ -24,7 +24,7 @@ class CookieCards extends HTMLElement {
         ${this.cookies.map(cookie =>
         `
           <li class="cookie-card">
-            <div class="cookie-card-front">
+            <div class="cookie-card-ui cookie-card-front">
                 <div class="cookie-image-container">
                   <img class="cookie-image" src="assets/images/cookies/${cookie.image}.png" alt="${cookie.name}">
                 </div>
@@ -32,12 +32,12 @@ class CookieCards extends HTMLElement {
                     ${cookie.name}
                   </h3>
                 <div class="cookie-card-front-cta-container">
-                  <button class="cookie-front-cta">See Details</button>
+                  <button class="cookie-card-button cookie-card-front-cta">See Details</button>
                 </div>
             </div>
-            <div class="cookie-card-back">
+            <div class="cookie-card-ui cookie-card-back">
                 <p class="cookie-description">${cookie.description}</p> 
-              <button class="cookie-back-cta"><img src="closeBtn.png" alt="Close Button"></button>
+              <button class="cookie-card-button cookie-card-back-cta"><img src="closeBtn.png" alt="Close Button"></button>
             </div>
           </li>
         `).join('')}
