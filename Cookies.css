@@ -1,69 +1,122 @@
-* {
-  padding: 0; 
-  margin:0;
-  overflow-x :hidden; 
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-  width:100%;
-}
-
-.cookie-header{
+.cookie-header {
   text-align: center;
   font-style: italic;
-  padding: 2.5rem;
+  padding: 40px 16px;
+  white-space: nowrap;
 }
 
-.cookie-name{
-  color: #000000;
-  text-decoration: underline;
-  font-style: italic;
-}
-
-.cookie-container{
+.cookie-container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 16px 32px;
   text-align: center;
 }
 
-ul{
-  display: inline-block;
+.cookie-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.cookie-card{
+.cookie-card {
   background-color: #DFECEF;
-  box-shadow: 2px 2px 5px;
-  padding:1rem;
-  text-align: center;
   border: 1px solid #DFECEF;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
   min-height: 210px;
-  max-width: 200px;
+  padding: 16px;
+  text-align: center;
   width:100%;
 }
 
-.cookie-front{
-  display: block;
+@media (min-width: 768px) {
+  .cookie-card {
+    max-width: 200px;
+  }
 }
 
-.card-back{
-  display: none;
+.cookie-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100px;
+  height: 100px;
 }
 
-.cookie-image{
-  min-width: 100px;
+.cookie-image {
   width: 100%;
 }
 
-.cookie-description{
-  text-align: center;
-  font-style: italic;
-  font-size: 1.2rem;
+.cookie-name {
+  color: #000000;
+  display: inline-block;
+  margin: 10px 0;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
-button{
-  border: none;
+.cookie-name:after {
+  content: '';
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.cookie-description {
+  color: #5C5C5C;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.cookie-card-front-cta-container {
+  display: inline-block;
+  position: relative;
+}
+
+.cookie-card-front-cta-container:hover .cookie-front-cta:after {
+  content: '';
+  height: 1px;
+  background-color: #555555;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.cookie-front-cta {
   background: none;
-  font-size: 0.75rem;
+  border: none;
   color: #555555;
   cursor: pointer;
+  font-size: 12px;
+}
+
+.cookie-card-front {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+}
+
+.cookie-card-back {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.CTA-button {
+  margin-top: 40px;
 }
