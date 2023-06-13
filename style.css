@@ -21,10 +21,6 @@ html {
   min-height:330px;
 }
 
-.hero-content *{
-  flex-basis: 100%;
-}
-
 .hero-content{
   padding: 1rem;
   width:100%;
@@ -37,14 +33,13 @@ h1{
   color: #000000;
 }
 
-
-
 .hero-copy{
   font-weight: 400;
   font-size: 16px;
   color: #5C5C5C;
   letter-spacing: -0.04em;
   margin-top:1.125rem;
+  margin-bottom: 1.5rem;
 }
 
 .cookie{
@@ -53,10 +48,6 @@ h1{
 
 .cookie-content{
   padding: 1rem;
-}
-
-.cookie-content *{
-  flex-basis: 50%;
 }
 
 .cookie-subheader{
@@ -74,6 +65,7 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.5rem;
 }
 
 .about-me{
@@ -84,15 +76,12 @@ h1{
   padding: 1rem;
 }
 
-.about-me-content *{
-  flex-basis: 50%;
-}
-
 .profile{
   height:10rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.5rem;
 }
 
 .intro-text{

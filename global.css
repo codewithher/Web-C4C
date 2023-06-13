@@ -11,7 +11,7 @@ html {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   background-color: #356E7A;
   padding: 1rem;
@@ -69,38 +69,22 @@ a {
   text-transform: uppercase;
 }
 
-/*
-.shop-button{
-    background-color: #EEDB76;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    border: none;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 225px;
-    height: 50px;
-    text-align: center;
-    overflow: hidden;
-    display: block;
-}
-*/
-
 .CTA-button{
     background-color: #EEDB76;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
     border: none;
     border-radius: 0.5rem;
     padding: 1rem;
-    width: 328px;
-    height: 50px;
+    min-width: 328px;
     overflow: hidden;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline-block;
 }
 
 .CTA-button:nth-child(1){
-  width: 225px;
+  min-width: 225px;
   margin-bottom: 0;
 }
 
@@ -155,7 +139,6 @@ footer{
 @media (max-width: 1099px) {
   header{
     justify-content: space-between;
-    height: 56px;
   }
 
   .logo{
@@ -240,13 +223,11 @@ footer{
 
 @media (min-width: 1100px) {
   header{
-    position: fixed;
     justify-content: space-evenly;
-    height: 80px;
   }
   
   .logo{
-    font-size: 32px;
+    font-size: 1.5rem;
   }
   
   .nav-content{
@@ -259,7 +240,7 @@ footer{
     color: #FFFF;
     font-family: 'Helvetica';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.25rem;
   }
 
   .open-btn{

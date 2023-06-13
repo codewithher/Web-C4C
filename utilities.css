@@ -22,6 +22,14 @@
   display: flex;
 }
 
+.fb-full{
+  flex-basis: 100%;
+}
+
+.fb-half{
+  flex-basis: 50%;
+}
+
 /*places text near bottom, vertical*/
 .ai-fe {
   align-items: flex-end;
