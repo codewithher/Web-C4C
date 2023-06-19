@@ -1,88 +1,147 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>C4C Website</title>
+    <link href="goals.css" rel="stylesheet" type="text/css" />
+    <link href="global.css" rel="stylesheet" type="text/css" />
+    <link href="utilities.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>C4C Website</title>
-  <link href="goals.css" rel="stylesheet" type="text/css" />
-  <link href="global.css" rel="stylesheet" type="text/css" />
-  <link href="utilities.css" rel="stylesheet" type="text/css" />
-  
-</head>
+  <body>
+    <header class="flex ai-c jc-sb">
+      <a class="logo" href="index.html">Anchal's Cookie Site</a>
 
-<body>
-  
-  <header class="flex ai-c jc-sb">
-    <a class="logo" href="index.html">Anchal's Cookie Site</a>
-    <nav class="hide">
-      <ul>
-        <li><a class="button" href=index.html>Shop for Cookies</a></li>
-        <li></li><a href=index.html>Cookie Catalog</a></li>
-        <li><a href=index.html>My Hall of Awesome Goals</a></li>
-        <li><a href=index.html>Home</a></li>
-      </ul>
-    </nav>
-    <button type="button" id="mobile-menu-trigger" class="menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-  </header>
+      <div id="opacityLayer"></div>
 
-  <main>
+      <div id="menu" class="menu-div">
+        <nav id="header-nav" class="header-menu-sidebar">
+          <ul class="header-ul">
+            <div class="nav-content">
+              <li>
+                <a class="header-menu-link" href="Cookies.html"
+                  >Cookie Catalog</a
+                >
+              </li>
+              <li>
+                <a class="header-menu-link" href="Goals.html"
+                  >My Hall of Awesome Goals</a
+                >
+              </li>
+              <li>
+                <a class="CTA-button" href="https://www.girlscouts.org/en/cookies.html" target="_blank">
+                  <span class="button-text button-hover-underline">Buy Now</span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
 
-
-    <!--HERO-->
-    <section class="hero">
-      <div class="hero-content flex ai-c jc-se">
-        <h1>Hall of Awesome Goals</h1>
+        <button
+          type="button"
+          id="mobile-menu-trigger-close"
+          class="close-btn"
+          alt="Close"
+        >
+          <img class="close-img" src="close-btn.svg" alt="Close Button" />
+        </button>
       </div>
-    </section>
-    
 
-    <!--SALES INITIATIVE-->
-    <section class="sales-initiative">
+      <button
+        type="button"
+        id="mobile-menu-trigger-open"
+        class="open-btn"
+        alt="Open"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </header>
+
+    <main style="margin: 1rem">
+      <h1 style="text-align: center"><i>Hall of Awesome Goals</i></h1>
+      <h2>
+        <i
+          ><u><br />Sales Initiatives</u></i
+        >
+      </h2>
+      <p style="color: #7b7b7b">
+        With your support, my troops will be able to:
+      </p>
+      <img src="online-community-icon 1.svg" alt="Online Community Goals" />
+
+      <!--SALES INITIATIVE-->
+      <section class="sales-initiative">
         <div>
           <h2 class="goals-header">Sales Initiative</h2>
-          <p class="sales-bodycopy">With your support, my troop will be able to:</p>
+          <p class="sales-bodycopy">
+            With your support, my troop will be able to:
+          </p>
         </div>
         <div class="badges-container sales-badges flex ai-c jc-sb">
-          <img class="badge" src="badge1.svg" alt="Picture of Badge 1">
-          <img class="badge" src="badge2.svg" alt="Picture of Badge 2">
-          <img class="badge" src="badge3.svg" alt="Picture of Badge 3">
+          <img class="badge" src="badge1.svg" alt="Picture of Badge 1" />
+          <img class="badge" src="badge2.svg" alt="Picture of Badge 2" />
+          <img class="badge" src="badge3.svg" alt="Picture of Badge 3" />
         </div>
-      <a class="CTA-button" href="Cookies.html">
-        <span class="button-text button-hover-underline">Shop Now</span>
-      </a>
-    </section>
+        <a class="CTA-button" href="Cookies.html">
+          <span class="button-text button-hover-underline">Shop Now</span>
+        </a>
+      </section>
 
-    
-    <!--WHAT I LEARNED-->
-    <section class="learning">
-          <h2 class="goals-header">What I Learned</h2>
-          <p class="sales-bodycopy">Through this experience, I acquired these skills:</p>
+      <!--WHAT I LEARNED-->
+      <section class="learning">
+        <h2 class="goals-header">What I Learned</h2>
+        <p class="sales-bodycopy">
+          Through this experience, I acquired these skills:
+        </p>
         <div class="badges-container learning-badges flex wrap ai-c jc-se">
-          <img class="badge" src="learning_badge1.svg" alt="Picture of Learning Badge 1">
-          <img class="badge" src="learning_badge2.svg" alt="Picture of Learning Badge 2">
-          <img class="badge" src="learning_badge3.svg" alt="Picture of Learning Badge 3">
-          <img class="badge" src="learning_badge4.svg" alt="Picture of Learning Badge 3">
+          <img
+            class="badge"
+            src="learning_badge1.svg"
+            alt="Picture of Learning Badge 1"
+          />
+          <img
+            class="badge"
+            src="learning_badge2.svg"
+            alt="Picture of Learning Badge 2"
+          />
+          <img
+            class="badge"
+            src="learning_badge3.svg"
+            alt="Picture of Learning Badge 3"
+          />
+          <img
+            class="badge"
+            src="learning_badge4.svg"
+            alt="Picture of Learning Badge 3"
+          />
         </div>
-      <a class="CTA-button" href="Cookies.html">
-        <span class="button-text button-hover-underline">Shop Now</span>
-      </a>
-    </section>
+        <a class="CTA-button" href="Cookies.html">
+          <span class="button-text button-hover-underline">Shop Now</span>
+        </a>
+      </section>
+    </main>
 
-  </main>
+    <!--FOOTER-->
+    <footer>
+      <img src="Logo 1.svg" alt="CWH Logo" />
+    </footer>
+  </body>
 
-  <!--FOOTER-->
-  <footer>
-    <img src="Logo 1.svg" alt="CWH Logo">
-  </footer>
-  
-</body>
-  
-<script src="script.js"></script>
-<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <script src="script.js"></script>
+  <script
+    src="https://replit.com/public/js/replit-badge-v2.js"
+    theme="dark"
+    position="bottom-right"
+  ></script>
 
+  <script src="script.js"></script>
+
+  <script
+    src="https://replit.com/public/js/replit-badge-v2.js"
+    theme="dark"
+    position="bottom-right"
+  ></script>
 </html>

@@ -1,21 +1,6 @@
-/* When naming classes, it is best practice to use kebab style naming as opposed to camel case 
-kebab: about-me 
-vs 
-camelcase: aboutMe
-
-More often than not, you will see camelcase used for JS and many backend languages. Kebab case is mostly used in html, css, and for naming image assets.
-*/
-
-* {
-  padding: 0; 
-  margin:0;
-  overflow-x :hidden; 
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-  width:100%;
+.inner-wrap {
+  max-width: 400px;
+  margin: 0 auto 1.5rem;
 }
 
 .hero{
@@ -28,23 +13,10 @@ html {
   min-height:330px;
 }
 
-.hero-content *{
-  flex-basis: 100%;
-}
-
 .hero-content{
   padding: 1rem;
   width:100%;
 }
-
-h1{
-  font-style: italic;
-  font-weight: 900;
-  font-size: 36px;
-  color: #000000;
-}
-
-
 
 .hero-copy{
   font-weight: 400;
@@ -62,10 +34,6 @@ h1{
   padding: 1rem;
 }
 
-.cookie-content *{
-  flex-basis: 50%;
-}
-
 .cookie-subheader{
   color:#ffff;
 }
@@ -78,9 +46,7 @@ h1{
 }
 
 .thinmint-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
 }
 
 .about-me{
@@ -91,15 +57,10 @@ h1{
   padding: 1rem;
 }
 
-.about-me-content *{
-  flex-basis: 50%;
-}
-
 .profile{
-  height:10rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  max-width: 160px;
+  width: 100%;
 }
 
 .intro-text{
