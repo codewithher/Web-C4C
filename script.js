@@ -7,9 +7,7 @@ const opacityLayer = document.getElementById('opacityLayer')
 const toggleMobileMenu = () => {
   mobileMenu.classList.toggle('open')
   opacityLayer.classList.toggle('opacity-on')
-  //document.getElementId("closeID").style.transform = translateX(0);
 }
-
 mobileMenuTriggerOpen.addEventListener('click', toggleMobileMenu)
 
 mobileMenuTriggerClose.addEventListener('click', toggleMobileMenu)

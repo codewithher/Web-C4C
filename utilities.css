@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-.nowrap{
+.nowrap {
   flex-wrap: nowrap;
 }
 
@@ -22,11 +22,11 @@
   display: flex;
 }
 
-.fb-full{
+.fb-full {
   flex-basis: 100%;
 }
 
-.fb-half{
+.fb-half {
   flex-basis: 50%;
 }
 
@@ -49,6 +49,14 @@
 /*horizontal*/
 .jc-sb {
   justify-content: space-between;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+
+.jc-fs {
+  justify-content: flex-start;
 }
 
 .centered-container {
