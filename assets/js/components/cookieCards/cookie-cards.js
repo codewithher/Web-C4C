@@ -6,19 +6,11 @@ const getCookies = async () => {
 
 const cookieData = await getCookies();
 
-// Extend the HTMLElement class to create the web component
 class CookieCards extends HTMLElement {
 
   constructor() {
     super()
     this.cookies = cookieData;
-  }
-
-  connectedCallback() {
-    this.render();
-  }
-
-  render() {
     this.innerHTML =
       `<ul class="cookie-list">
         ${this.cookies.map(cookie =>
@@ -42,7 +34,25 @@ class CookieCards extends HTMLElement {
           </li>
         `).join('')}
       </ul>`
-  };
+  }
+
+  clickHandler(event) {
+    let host = event.target.closest('.cookie-card');
+    host.classList.toggle('card-flip');
+  }
+
+  connectedCallback() {
+    const cardFrontCta = this.getElementsByClassName('cookie-card-front-cta');
+    const cardBackCta = this.getElementsByClassName('cookie-card-back-cta');
+    if (!cardFrontCta) return;
+    if (!cardBackCta) return;
+    for (let i = 0; i < cardFrontCta.length; i++) {
+      cardFrontCta[i].addEventListener('click', this.clickHandler);
+    }
+    for (let i = 0; i < cardBackCta.length; i++) {
+      cardBackCta[i].addEventListener('click', this.clickHandler);
+    }
+  }
 }
 
 if ('customElements' in window) {
