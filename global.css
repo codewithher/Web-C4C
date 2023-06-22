@@ -10,12 +10,20 @@ html {
   width:100%;
 }
 
+main {
+  border: 1px solid rgb(0,0,0,0.1);
+    box-shadow: 0px 0px 16px rgb(0,0,0,0.2);
+  margin: 60px auto 0;
+  max-width: 600px;
+}
+
 header {
   position: fixed;
   top: 0;
   background-color: #356E7A;
   padding: 1rem;
   width: 100%;
+  z-index: 1;
 }
 
 .close-img{
@@ -222,6 +230,11 @@ footer{
   
 
 @media (min-width: 1100px) {
+  main {
+    margin: 90px auto 0;
+    max-width: 1250px;
+  }
+  
   header{
     justify-content: space-evenly;
   }

@@ -1,5 +1,5 @@
 .inner-wrap {
-  max-width: 400px;
+  max-width: 780px;
   margin: 0 auto 1.5rem;
 }
 
@@ -11,23 +11,33 @@
   background: url('hero.jpg');
   background-size: cover;
   min-height:330px;
+  position: relative;
 }
 
 .hero-content{
+  background-color: white;
   padding: 1rem;
-  width:100%;
+  width:33%;
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
 }
 
 .hero-copy{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: #5C5C5C;
   letter-spacing: -0.04em;
   margin-top:1.125rem;
 }
 
+.hero-btn-container .CTA-button{
+  max-width: 225px;
+}
+
 .cookie{
   background-color: #C7742E; 
+  padding: 3rem;
 }
 
 .cookie-content{
@@ -36,13 +46,15 @@
 
 .cookie-subheader{
   color:#ffff;
+  font-size: 24px;
+  overflow: hidden;
 }
 
 .cookie-bodycopy{
-  font-size: 14px;
+  font-size: 18px;
   color:#ffff;
   letter-spacing: -0.04em;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
 }
 
 .thinmint-img{
@@ -51,16 +63,26 @@
 
 .about-me{
   margin-top: 2rem;
+  padding: 3rem;
+  width: 100%;
+}
+
+.about-me-subheader{
+  font-size: 24px;
+  overflow: hidden;
 }
 
 .about-me-content{
   padding: 1rem;
 }
 
+.about-me-content p{
+  font-size: 1rem;
+}
+
 .profile{
   display: inline-block;
-  max-width: 160px;
-  width: 100%;
+  max-width: 200px;
 }
 
 .intro-text{
@@ -69,4 +91,39 @@
 
 .goal-text{
   margin-top: 1rem;
+}
+
+
+@media (max-width: 1099px) {
+  .inner-wrap {
+    max-width: 400px;
+  }
+  
+  .hero-pic {
+    position: static;
+  }
+
+  .hero-content{
+    position: static;
+    width: 100%;
+  }
+
+  .hero-btn-container .CTA-button{
+    max-width: 328px;
+    display: block;
+    margin: auto;
+  }
+
+  .about-me, .cookie{
+    padding: 1rem;
+  }
+
+  .about-me-content p, .cookie-bodycopy, .hero-copy{
+    font-size: 14px;
+  }
+  
+  .profile{
+    max-width: 160px;
+  }
+  
 }
