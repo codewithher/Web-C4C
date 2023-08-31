@@ -1,12 +1,24 @@
-.badges-container {
-  max-width: 360px;
-  margin: 0 auto;
-  margin-top: 24px;
-}
-
 .hero{
   background-color: #F8F8F3;
-  padding: 2rem;
+  padding: 3rem;
+}
+
+.goals-title{
+  font-style: italic;
+  text-align: center;
+}
+
+.goals-subheader{
+  color:#ffff;
+  text-align: center;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+.goals-bodycopy{
+  color:#ffff;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .sales-initiative{
@@ -14,19 +26,14 @@
   background-color: #C7742E; 
 }
 
-.goals-header {
-  color:#ffff;
-  text-align: center;
-}
-
-.sales-bodycopy{
-  color:#ffff;
-  font-size: 1rem;
-  text-align: center;
-}
-
 .sales-badges{
   padding: 1rem;
+}
+
+.badges-container {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 24px;
 }
 
 .badge {
@@ -41,7 +48,6 @@
    margin-right: 0;
 }
 
-
 .learning {
   padding: 2.5rem 1.5rem;
   background-color: #7A463B; 
@@ -53,4 +59,8 @@
 
 .learning-badges .badge:nth-child(2n) {
     margin-right: 0;
+}
+
+.shop-now-btn{
+  text-align: center;
 }
