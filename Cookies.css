@@ -1,5 +1,4 @@
 .cookie-header {
-  font-size: 48px;
   text-align: center;
   font-style: italic;
   padding: 40px 16px;
@@ -27,12 +26,6 @@
   height: 210px;
   perspective: 1000px;
   position: relative;
-}
-
-@media (min-width: 768px) {
-  .cookie-card {
-    width: 200px;
-  }
 }
 
 .cookie-card-ui {
@@ -85,7 +78,6 @@
   display: inline-block;
   margin: 10px 0 20px;
   position: relative;
-  font-size: 18px;
   letter-spacing: 0.5px;
   white-space: nowrap;
 }
@@ -100,11 +92,10 @@
   width: 100%;
 }
 
-.cookie-description {
+p1{
   color: #5C5C5C;
   text-align: center;
   font-style: italic;
-  font-size: 16px;
   line-height: 24px;
 }
 
@@ -141,4 +132,16 @@
 
 .cookie-catalog-btn{
   margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .cookie-card {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1100px) { 
+  .cookie-header {
+    margin-top: 5rem;
+  }
 }

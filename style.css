@@ -5,79 +5,80 @@
 .hero-pic {
   background: url('hero.jpg');
   background-size: cover;
-  min-height:330px;
-  height: 80vh;
-  position: relative;
+  height: 315px;
 }
 
 .hero-content{
   background-color: white;
   padding: 2rem;
-  width: 33%;
-  position: absolute;
-  bottom: 15%;
-  left: 150px;
 }
 
-.hero-header{
-  font-size: 48px;
+p1{
+  color: #356e7a;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.hero-copy{
-  font-weight: 400;
-  font-size: 24px;
-  color: #5C5C5C;
+h1{
+  font-style: italic;
+  font-weight: 900;
+}
+
+p{
+  color:#000000;
   letter-spacing: -0.04em;
-  margin-top:1.125rem;
-  margin-bottom: 2rem;
-  overflow: hidden;
+}
+
+.hero-content p{
+  font-weight: 400;
+  color: #5C5C5C;
+  margin: 1rem 0;
 }
 
 .hero-btn-container .CTA-button{
   max-width: 225px;
+  width: 100%;
 }
 
 .cookie{
   background-color: #C7742E; 
-  padding: 5rem;
+}
+
+.hero-content, .cookie, .about-me{
+  padding: 1.75rem;
 }
 
 .cookie-content{
-  max-width: 530px;
-  margin-right: 50px;
+  width: 100%;
 }
 
-.cookie-subheader{
-  color:#ffff;
-  font-size: 32px;
-  text-decoration-line: underline;
-  overflow: hidden;
+.cookie-copy{
+  margin-right: 1rem;
 }
 
-.cookie-bodycopy{
-  font-size: 24px;
-  color:#ffff;
-  letter-spacing: -0.04em;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  overflow: hidden;
+.cookie-copy p{
+  color:#FFFFFF;
+  margin: 1rem 0;
+}
+
+h2{
+  text-decoration: underline;
+  color: #000000;
+  line-height: 23px;
+  margin-bottom: 1rem;
 }
 
 .cookie-btn-container .CTA-button{
-  max-width: 273px;
   width: 100%;
 }
 
-.thinmint-img{
+.home-image {
   display: inline-block;
-  max-width: 248px;
+  max-width: 160px;
   width: 100%;
-  height: 100%;
 }
 
 .about-me{
-  margin-top: 2rem;
-  padding: 3rem;
   width: 100%;
 }
 
@@ -86,34 +87,12 @@
   margin-left: 50px;
 }
 
-.about-me-subheader{
-  font-size: 32px;
-  text-decoration-line: underline;
-  overflow: hidden;
+.about-me-description{
+  margin: 1rem 0;
 }
 
-.about-me-content{
-  padding: 1rem;
-}
-
-.about-me-content p{
-  font-size: 1rem;
-}
-
-.profile{
-  display: inline-block;
-  max-width: 314px;
-  width:100%;
-}
-
-.intro-text{
-  margin-top: 0;
-}
-
-.goal-text{
-  max-width: 234px;
+.about-me-text{
   margin-top: 1rem;
-  margin-bottom: 3rem;
 }
 
 .about-me-btn-container .CTA-button{
@@ -122,41 +101,52 @@
 }
 
 
-@media (max-width: 1099px) {
-  .inner-wrap {
-    max-width: 400px;
-  }
-  
+/*DESKTOP STYLES*/
+@media (min-width: 1100px) { 
   .hero-pic {
-    position: static;
-    height: 60vh;
+    height:80vh;
+    position: relative;
   }
 
   .hero-content{
-    position: static;
+    width: 33%;
+    position: absolute;
+    padding: 2rem;
+    bottom: 25%;
+    left: 240px;
+  }
+
+  .cookie, .about-me{
+    padding: 2rem;
+  }
+
+  .cookie-content {
+    max-width: 800px;
+  }
+
+  .cookie-copy{
+    max-width: 420px;
     width: 100%;
   }
 
-  .hero-btn-container .CTA-button{
-    max-width: 328px;
-    display: block;
-    margin: auto;
+  .cookie-copy p{
+    margin: 3rem 0;
   }
 
-  .about-me, .cookie{
-    padding: 1rem;
+  .cookie-btn-container .CTA-button{
+    margin-right: 500px;
+    max-width: 273px;
   }
 
-  .about-me-content p, .cookie-bodycopy, .hero-copy{
-    font-size: 14px;
+  .home-image{
+    max-width: 248px;
   }
 
-  .thinmint-img{
-    max-width: 142px;
+  .about-me-text{
+    max-width: 280px;
   }
-  
-  .profile{
-    max-width: 160px;
+
+  .about-me-description{
+    margin: 3rem 0;
   }
-  
 }
