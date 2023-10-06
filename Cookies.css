@@ -139,9 +139,3 @@ p1{
     width: 200px;
   }
 }
-
-@media (min-width: 1100px) { 
-  .cookie-header {
-    margin-top: 5rem;
-  }
-}
