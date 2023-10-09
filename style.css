@@ -1,5 +1,6 @@
-.hero{
+.hero {
   background-color: #F8F8F3;
+  position: relative;
 }
 
 .hero-pic {
@@ -8,62 +9,32 @@
   height: 315px;
 }
 
-.hero-content{
-  background-color: white;
+.hero-content {
+  background-color: #FFF;
   padding: 32px;
 }
 
-.subheader{
-  color: #356e7a;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-h1{
-  font-style: italic;
-  font-weight: 900;
-}
-
-p{
-  color:#000000;
-  letter-spacing: -0.04em;
-}
-
-.hero-content p{
-  font-weight: 400;
-  color: #5C5C5C;
+.hero-content p {
   margin: 16px 0;
 }
 
-.cookie{
-  background-color: #C7742E; 
+.home-content {
+  margin-bottom: 24px;
 }
 
-.hero-content, .cookie, .about-me{
-  padding: 28px;
+.home-copy h2 {
+  margin-bottom: 16px;
 }
 
-.home-content{
-  width: 100%;
-  margin: 24px 0;
+.home-copy p {
+  margin-bottom: 16px;
 }
 
-.cookie .home-copy{
-  margin-right: 16px;
+.home-copy p:last-of-type {
+  margin-bottom: 0;
 }
 
-.cookie .home-copy p{
-  color:#FFFFFF;
-  margin: 16px 0;
-}
-
-h2{
-  text-decoration: underline;
-  color: #000000;
-  line-height: 23px;
-}
-
-.home-btn-container .CTA-button{
+.home-btn-container .CTA-button {
   width: 100%;
 }
 
@@ -73,35 +44,47 @@ h2{
   width: 100%;
 }
 
-.about-me{
+.hero-content, .cookie, .about-me {
+  padding: 28px;
+}
+
+.cookie {
+  background-color: #C7742E; 
+}
+
+.cookie .home-copy {
+  margin-right: 72px;
+}
+
+.cookie .home-image {
+  transform: rotateY(180deg);
+}
+
+.about-me {
   width: 100%;
 }
 
-.about-me .home-copy{
-  margin-left: 50px;
-}
-
-.about-me-text{
-  margin-top: 16px;
+.about-me .home-copy {
+  margin-left: 72px;
 }
 
 /*DESKTOP STYLES*/
 @media (min-width: 1100px) { 
   .hero-pic {
-    height:80vh;
+    height: 80vh;
     position: relative;
   }
 
-  .hero-content{
+  .hero-content {
     width: 33%;
     position: absolute;
     padding: 32px;
-    bottom: 25%;
-    left: 240px;
+    bottom: 50px;
+    left: 50px;
   }
 
-  .cookie, .about-me{
-    padding: 32px;
+  .cookie, .about-me {
+    padding: 130px;
   }
 
   .home-content {
@@ -109,28 +92,24 @@ h2{
     max-width: 800px;
   }
 
-  .home-copy{
+  .home-copy {
     max-width: 420px;
     width: 100%;
   }
 
-  .cookie .home-copy p{
-    margin: 48px 0;
+  .home-copy .CTA-button {
+    margin-top: 40px;
   }
 
-  .home-image{
+  .home-image {
     max-width: 248px;
   }
 
-  .home-btn-container .CTA-button{
-    max-width: 273px;
-  }
-
-  .cookie .home-btn-container .CTA-button{
+  .cookie .home-btn-container .CTA-button {
     margin-right: 400px;
   }
 
-  .about-me-description{
+  .about-me-description {
     margin: 48px 0;
     max-width: 280px;
   }
