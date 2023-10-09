@@ -28,7 +28,7 @@ class CookieCards extends HTMLElement {
                 </div>
             </div>
             <div class="cookie-card-ui cookie-card-back">
-                <p class="cookie-description">${cookie.description}</p> 
+                <p1>${cookie.description}</p1> 
               <button class="cookie-card-button cookie-card-back-cta"><img src="closeBtn.png" alt="Close Button"></button>
             </div>
           </li>

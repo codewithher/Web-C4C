@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
@@ -21,7 +20,7 @@ header {
   position: fixed;
   top: 0;
   background-color: #356e7a;
-  padding: 1rem;
+  padding: 16px;
   width: 100%;
   z-index: 9999;
 }
@@ -44,39 +43,33 @@ header {
   color: #aed4dc;
 }
 
-main {
-  border: 1px solid rgb(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 16px rgb(0, 0, 0, 0.2);
-  margin: 60px auto 0;
-  max-width: 600px;
-}
-
-@media (min-width: 1100px) {
-  main {
-    margin: 90px auto 0;
-    max-width: 1250px;
-  }
-}
-
 h1 {
+  font-size: 36px;
   font-style: italic;
   font-weight: 900;
-  font-size: 36px;
-  color: #000000;
+  line-height: 1.25;
 }
 
 h2 {
-  font-size: 18px;
-  text-decoration-line: underline;
   color: #000000;
-  line-height: 23px;
-  margin-bottom: 1rem;
+  font-size: 24px;
+  line-height: 1.25;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 p {
-  font-size: 14px;
-  color: #5c5c5c;
-  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  line-height: 1.5;
+}
+
+p {
+  color: #5C5C5C;
 }
 
 a {
@@ -85,9 +78,14 @@ a {
   font-size: 20px;
 }
 
+li {
+  list-style-type: none
+}
+
 .subheader {
-  font-size: 12px;
   color: #356e7a;
+  font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -95,19 +93,12 @@ a {
   background-color: #eedb76;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   border: none;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  min-width: 328px;
+  border-radius: 8px;
+  padding: 16px;
   overflow: hidden;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
-}
-
-.CTA-button:nth-child(1) {
-  min-width: 225px;
-  margin-bottom: 0;
+  width: 100%;
 }
 
 .CTA-button:hover {
@@ -115,7 +106,7 @@ a {
 }
 
 .CTA-button:hover .button-text {
-  color: #ffff;
+  color: #FFF;
 }
 
 .button-text {
@@ -151,10 +142,13 @@ a {
 }
 
 footer {
-  margin-top: 1rem;
   text-align: center;
-  padding: 3px;
+  padding: 16px;
   background-color: #d9d9d9;
+}
+
+.white-text {
+  color: #FFF;
 }
 
 @media (max-width: 1099px) {
@@ -214,7 +208,7 @@ footer {
     top: 0;
     right: 0;
     z-index: 1000;
-    margin: 15px 15px;
+    margin: 15px;
     background: none;
     border: none;
     cursor: pointer;
@@ -230,17 +224,18 @@ footer {
   .header-menu-link {
     display: inline-block;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     text-transform: uppercase;
     white-space: normal;
   }
 
   .button-text {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
-@media (min-width: 1100px) {
+/*DESKTOP STYLES*/
+@media (min-width: 1100px) { 
   main {
     margin: 90px auto 0;
     max-width: 1250px;
@@ -248,10 +243,7 @@ footer {
 
   header {
     justify-content: space-evenly;
-  }
-
-  .logo {
-    font-size: 1.5rem;
+    padding: 16px;
   }
 
   .nav-content {
@@ -264,18 +256,42 @@ footer {
     color: #ffff;
     font-family: "Helvetica";
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 18px;
   }
 
-  .open-btn {
-    display: none;
+  .button-text {
+    font-size: 18px;
   }
 
   .close-btn {
     display: none;
   }
+  
+  .open-btn {
+    display: none;
+  }
 
-  .button-text {
-    font-size: 18px;
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .subheader {
+    font-size: 16px;
+  }
+
+  .CTA-button {
+    max-width: 225px;
+  }
+  
+  .logo {
+    font-size: 24px;
   }
 }
