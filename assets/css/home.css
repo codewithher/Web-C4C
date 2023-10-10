@@ -53,7 +53,7 @@
 }
 
 .cookie .home-copy {
-  margin-right: 72px;
+  margin-right: 24px;
 }
 
 .cookie .home-image {
@@ -65,7 +65,7 @@
 }
 
 .about-me .home-copy {
-  margin-left: 72px;
+  margin-left: 24px;
 }
 
 /*DESKTOP STYLES*/
@@ -105,8 +105,16 @@
     max-width: 248px;
   }
 
+  .cookie .home-copy {
+    margin-right: 72px;
+  }
+
   .cookie .home-btn-container .CTA-button {
     margin-right: 400px;
+  }
+
+  .about-me .home-copy {
+    margin-left: 72px;
   }
 
   .about-me-description {
