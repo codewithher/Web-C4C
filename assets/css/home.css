@@ -34,7 +34,7 @@
   margin-bottom: 0;
 }
 
-.home-btn-container .CTA-button {
+.home-btn-container .button {
   width: 100%;
 }
 
@@ -97,7 +97,7 @@
     width: 100%;
   }
 
-  .home-copy .CTA-button {
+  .home-copy .button {
     margin-top: 40px;
   }
 
@@ -109,7 +109,7 @@
     margin-right: 72px;
   }
 
-  .cookie .home-btn-container .CTA-button {
+  .cookie .home-btn-container .button {
     margin-right: 400px;
   }
 
@@ -122,7 +122,7 @@
     max-width: 280px;
   }
   
-  .about-me .home-btn-container .CTA-button{
+  .about-me .home-btn-container .button{
     margin-left: 250px;
   }
 }
