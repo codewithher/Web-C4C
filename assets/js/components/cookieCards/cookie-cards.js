@@ -37,8 +37,8 @@ class CookieCards extends HTMLElement {
   }
 
   clickHandler(event) {
-    let host = event.target.closest('.cookie-card');
-    host.classList.toggle('card-flip');
+    let card = event.target.closest('.cookie-card');
+    card.classList.toggle('card-flip');
   }
 
   connectedCallback() {
