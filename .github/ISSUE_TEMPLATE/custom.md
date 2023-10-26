@@ -6,18 +6,13 @@ labels: good first issue, help wanted
 assignees: ''
 
 ---
-
+## About
 Explanation
 
-Resources
-- 
+## Resources
+- Attached resources
 
-> Before
-```md
 
-```
+## Expected result
 
-> After
-```md
-
-```
+## Additional Notes
