@@ -150,6 +150,40 @@ footer {
 .white-text {
   color: #FFF;
 }
+.promo-banner {
+  padding: 6px 50px 70px 20px;
+  position: relative;
+  height:100px;
+  background-color: #e0e0e0;
+  overflow: hidden; 
+  border: 1px solid #ccc; 
+}
+
+.promo-banner-image {
+  max-width: 70px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(75, 54, 38, 0.795));
+  filter: drop-shadow(5px 5px 5px rgba(75, 54, 38, 0.795));
+}
+
+.promo-banner-btn:hover {
+  background: #4c4b17;
+}
+
+.promo-banner-btn:hover {
+  color: #FFF;
+}
+
+.ribbon-content {
+  font-style:oblique;
+
+}
+
+.promo-cookie {
+  color:cadetblue;
+  -webkit-filter: drop-shadow(5px 0px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(5px 0px 5px rgba(0, 0, 0, 0.3));
+  line-height: 0.8em;
+}
 
 @media (max-width: 1099px) {
   header {
@@ -232,6 +266,27 @@ footer {
   .button-text {
     font-size: 16px;
   }
+
+  .promo-banner-content {
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+  }
+
+  .promo-banner-ribbon {
+    width: 400px;
+    font-size: 14px;
+    padding: 10px;
+    position: absolute;
+    right: -150px;
+    top: 15px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(30deg);
+    background-color: rgb(228, 177, 177);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    z-index: 1;
+  }
 }
 
 /*DESKTOP STYLES*/
@@ -293,5 +348,27 @@ footer {
   
   .logo {
     font-size: 24px;
+  }
+  .promo-banner-btn {
+    max-width: 150px;
+  }
+  .promo-banner-ribbon {
+    width: 200px;
+    font-size: 19px;
+    padding: 20px;
+    position: absolute;
+    right: -20px;
+    top: 15px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(255, 3, 3, 0.25);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    z-index: 1;
+  }
+  
+  .promo-banner-content {
+    padding: 0px 60px 0px 60px;
+    text-align: center;
   }
 }
