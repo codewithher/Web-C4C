@@ -156,7 +156,6 @@ footer {
   height:100px;
   background-color: #e0e0e0;
   overflow: hidden; 
-  border: 1px solid #ccc; 
 }
 
 .promo-banner-image {
@@ -277,8 +276,8 @@ footer {
     font-size: 14px;
     padding: 10px;
     position: absolute;
-    right: -150px;
-    top: 15px;
+    right: -170px;
+    top: 2px;
     text-align: center;
     border-radius: 25px;
     transform: rotate(30deg);
@@ -286,6 +285,13 @@ footer {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     color: white;
     z-index: 1;
+  }
+  .ribbon-content {
+    font-size: 10px;
+  }
+  .promo-banner-btn {
+    max-width: 150px;
+    width: auto;
   }
 }
 
