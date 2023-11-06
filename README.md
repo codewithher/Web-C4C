@@ -37,4 +37,4 @@ It is not enough to just contribute code, you will need to review your peers' co
 3. No question is too dumb, silly, whatever. Ask whatever you have on your mind.
 4. If you think there is a better way to approach the solution, say it! This is a place where all ideas are heard.
 
-If you have questions/concerns, reach out to [Maile](maile@codewithher.org) or [Lina](lina@codewithher.org)
+If you have questions/concerns, reach out to [Maile](maile@codewithher.org) or [Lina](lina@codewithher.org) -- or reach out to us on Slack 
