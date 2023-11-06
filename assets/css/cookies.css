@@ -67,6 +67,17 @@
   backface-visibility: hidden;
 }
 
+.cookie-card-ui.popular-cookie::before {
+  content: "Popular";
+  background-color: #660505;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 8px;
+  border-radius: 0 0 0 4px;
+}
+
 .cookie-card-back {
   transform: rotateY(180deg);
 }
