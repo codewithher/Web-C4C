@@ -2,31 +2,33 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
   /** CSS VARIABLES **/
   /* our base color, with one tint, and one shade - body and typogaphry is generally the base colour */
-  --clr-base:    #666;
-  --clr-base-lt: #999;
-  --clr-base-dk: #333;
+  --clr-base-f:    hsl(0, 0%, 40%);
 
-  /* primary brand color - skyblue - with shades and tints via Sass functions */
-  --clr-primary:     skyblue;
-  --clr-primary-lt:  lighten(--clr-primary, 5%);
-  --clr-primary-ltr: lighten(--clr-primary, 10%);
-  --clr-primary-dk:  darken(--clr-primary, 5%);
-  --clr-primary-dkr: darken(--clr-primary, 10%);
+  /* primary brand color - blue - with shades and tints via HSL */
+  --clr-primary:       hsl(190, 40%, 35%);
+  --clr-primary-f-lt:  hsl(190, 40%, 75%);
+  --clr-primary-f-dk:  hsl(190, 40%, 15%);
+  --clr-primary-lt:    hsl(190, 40%, 50%);
 
-  /* secondary brand color - hotpink - with shades and tints via Sass functions */
-  --clr-secondary:     hotpink;
-  --clr-secondary-lt:  lighten(--clr-secondary, 5%);
-  --clr-secondary-ltr: lighten(--clr-secondary, 10%);
-  --clr-secondary-dk:  darken(--clr-secondary, 5%);
-  --clr-secondary-dkr: darken(--clr-secondary, 10%);
+  /* secondary brand color - yellow - with shades and tints via HSL */
+  --clr-secondary:      hsl(50, 80%, 70%);
+  --clr-secondary-f:    hsl(50, 80%, 20%);
+
+  /* tertiary brand color - red - with shades and tints via HSL */
+  --clr-tertiary:           hsla(0, 100%, 50%, 0.2);
+  --clr-tertiary-f:    	    hsla(0, 100%, 80%, 1.0);
+  --clr-tertiary-opacity: 	hsla(0, 33%, 50%, 0.8);
 
   /* neutrals */
-  --clr-ntrl-min: #fff;
-  --clr-ntrl-max: #000;
+  --clr-ntrl-min:       hsl(0, 0%, 100%);
+  --clr-ntrl-mid:       hsl(0, 0%, 85%);
+  --clr-ntrl-max:       hsl(0, 0%, 0%);
+  --clr-opacity:        hsla(0, 0%, 0%, 0.3);
 
-  /* base font size - applied at body / html level */
+  /* base font size */
   --fs-base: 16px;
 
   /* larger than heading font sizes */
@@ -46,6 +48,9 @@
 
   /* Responsiveness modififer */
   --fs-desktop: 8px;
+
+  /* Font */
+  --ff-primary: "Helvetica";
 }
 
 html {
@@ -54,8 +59,8 @@ html {
 }
 
 main {
-  border: 1px solid rgb(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 16px rgb(0, 0, 0, 0.2);
+  border: 1px solid hsl(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 16px hsl(0, 0, 0, 0.2);
   margin: 60px auto 0;
   max-width: 600px;
 }
@@ -63,7 +68,7 @@ main {
 header {
   position: fixed;
   top: 0;
-  background-color: #356e7a;
+  background-color: var(--clr-primary);
   padding: 16px;
   width: 100%;
   z-index: 9999;
@@ -78,13 +83,13 @@ header {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: white;
+  background-color: var(--clr-ntrl-min);
 }
 
 .logo {
-  font-family: "Helvetica";
+  font-family: var(--ff-primary);
   text-decoration: none;
-  color: #aed4dc;
+  color: var(--clr-primary-f-lt);
 }
 
 h1 {
@@ -95,7 +100,7 @@ h1 {
 }
 
 h2 {
-  color: #000000;
+  color: var(--clr-ntrl-max);
   font-size: var(--fs-h2);
   line-height: 1.25;
   text-decoration: underline;
@@ -110,12 +115,12 @@ p {
   font-size: var(--fs-base);
   letter-spacing: -0.04em;
   line-height: 1.5;
-  color: #5C5C5C;
+  color: var(--clr-base-f);
 }
 
 a {
   text-decoration: none;
-  color: #4c4b17;
+  color: var(--clr-secondary-f);
   font-size: var(--fs-bigger);
 }
 
@@ -124,15 +129,15 @@ li {
 }
 
 .subheader {
-  color: #356e7a;
+  color: var(--clr-primary-f-dk);
   font-size: var(--fs-small);
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .button {
-  background-color: #eedb76;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  background-color: var(--clr-secondary);
+  box-shadow: 0px 1px 3px var(--clr-opacity);
   border: none;
   border-radius: 8px;
   padding: 16px;
@@ -147,12 +152,12 @@ li {
 }
 
 .button:hover .button-text {
-  color: #FFF;
+  color: var(--clr-ntrl-min);
 }
 
 .button-text {
-  color: #4c4b17;
-  font-family: "Helvetica";
+  color: var(--clr-secondary-f);
+  font-family: var(--ff-primary);
 }
 
 .button-hover-underline {
@@ -163,7 +168,7 @@ li {
 
 .button-hover-underline:after {
   content: "";
-  background-color: #fff;
+  background-color: var(--clr-ntrl-min);
   position: absolute;
   right: 0;
   width: 0;
@@ -185,24 +190,24 @@ li {
 footer {
   text-align: center;
   padding: var(--fs-base);
-  background-color: #d9d9d9;
+  background-color: var(--clr-ntrl-mid);
 }
 
 .white-text {
-  color: #FFF;
+  color: var(--clr-ntrl-min);
 }
 .promo-banner {
   padding: 6px 50px 70px 20px;
   position: relative;
   height:100px;
-  background-color: #e0e0e0;
+  background-color: var(--clr-ntrl-mid);
   overflow: hidden; 
 }
 
 .promo-banner-image {
   max-width: 70px;
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(75, 54, 38, 0.795));
-  filter: drop-shadow(5px 5px 5px rgba(75, 54, 38, 0.795));
+  -webkit-filter: drop-shadow(5px 5px 5px var(--clr-tertiary-opacity));
+  filter: drop-shadow(5px 5px 5px var(--clr-tertiary-opacity));
 }
 
 .promo-banner-btn:hover {
@@ -210,7 +215,7 @@ footer {
 }
 
 .promo-banner-btn:hover {
-  color: #FFF;
+  color: var(--clr-ntrl-min);
 }
 
 .ribbon-content {
@@ -219,9 +224,9 @@ footer {
 }
 
 .promo-cookie {
-  color:cadetblue;
-  -webkit-filter: drop-shadow(5px 0px 5px rgba(0, 0, 0, 0.3));
-  filter: drop-shadow(5px 0px 5px rgba(0, 0, 0, 0.3));
+  color:var(--clr-primary-lt);
+  -webkit-filter: drop-shadow(5px 0px 5px var(--clr-opacity));
+  filter: drop-shadow(5px 0px 5px var(--clr-opacity));
   line-height: 0.8em;
 }
 
@@ -235,7 +240,7 @@ footer {
   }
 
   #opacityLayer {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--clr-opacity);
     position: fixed;
     top: 0;
     left: 0;
@@ -322,9 +327,9 @@ footer {
     text-align: center;
     border-radius: 25px;
     transform: rotate(30deg);
-    background-color: rgb(228, 177, 177);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color: var(--clr-tertiary-f);
+    box-shadow: 2px 2px 5px var(--clr-opacity);
+    color: var(--clr-ntrl-min);
     z-index: 1;
   }
   .ribbon-content {
@@ -355,8 +360,8 @@ footer {
   }
 
   .header-menu-link {
-    color: #ffff;
-    font-family: "Helvetica";
+    color: var(--clr-ntrl-min);
+    font-family: var(--ff-primary);
     font-weight: 400;
     font-size: var(--fs-big);
   }
@@ -412,9 +417,9 @@ footer {
     top: 15px;
     text-align: center;
     border-radius: 25px;
-    background-color: rgba(255, 3, 3, 0.25);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color: var(--clr-tertiary);
+    box-shadow: 2px 2px 5px var(--clr-opacity);
+    color: var(--clr-ntrl-min);
     z-index: 1;
   }
   
