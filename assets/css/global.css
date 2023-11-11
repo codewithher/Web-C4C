@@ -2,7 +2,50 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* Super cool edits */
+  /** CSS VARIABLES **/
+  /* our base color, with one tint, and one shade - body and typogaphry is generally the base colour */
+  --clr-base:    #666;
+  --clr-base-lt: #999;
+  --clr-base-dk: #333;
+
+  /* primary brand color - skyblue - with shades and tints via Sass functions */
+  --clr-primary:     skyblue;
+  --clr-primary-lt:  lighten(--clr-primary, 5%);
+  --clr-primary-ltr: lighten(--clr-primary, 10%);
+  --clr-primary-dk:  darken(--clr-primary, 5%);
+  --clr-primary-dkr: darken(--clr-primary, 10%);
+
+  /* secondary brand color - hotpink - with shades and tints via Sass functions */
+  --clr-secondary:     hotpink;
+  --clr-secondary-lt:  lighten(--clr-secondary, 5%);
+  --clr-secondary-ltr: lighten(--clr-secondary, 10%);
+  --clr-secondary-dk:  darken(--clr-secondary, 5%);
+  --clr-secondary-dkr: darken(--clr-secondary, 10%);
+
+  /* neutrals */
+  --clr-ntrl-min: #fff;
+  --clr-ntrl-max: #000;
+
+  /* base font size - applied at body / html level */
+  --fs-base: 16px;
+
+  /* larger than heading font sizes */
+  --fs-big: 18px;
+  --fs-bigger: 20px;
+  --fs-biggest: 24px;
+
+  /* heading font sizes */
+  --fs-h1: 36px;
+  --fs-h2: 24px;
+  --fs-h3: 18px;
+
+  /* smaller than heading font sizes */
+  --fs-small: 14px;
+  --fs-smaller: 10px;
+  --fs-smallest:  8px;
+
+  /* Responsiveness modififer */
+  --fs-desktop: 8px;
 }
 
 html {
@@ -45,7 +88,7 @@ header {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: var(--fs-h1);
   font-style: italic;
   font-weight: 900;
   line-height: 1.25;
@@ -53,30 +96,27 @@ h1 {
 
 h2 {
   color: #000000;
-  font-size: 24px;
+  font-size: var(--fs-h2);
   line-height: 1.25;
   text-decoration: underline;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: var(--fs-h3);
   line-height: 1.25;
 }
 
 p {
-  font-size: 16px;
+  font-size: var(--fs-base);
   letter-spacing: -0.04em;
   line-height: 1.5;
-}
-
-p {
   color: #5C5C5C;
 }
 
 a {
   text-decoration: none;
   color: #4c4b17;
-  font-size: 20px;
+  font-size: var(--fs-bigger);
 }
 
 li {
@@ -85,7 +125,7 @@ li {
 
 .subheader {
   color: #356e7a;
-  font-size: 14px;
+  font-size: var(--fs-small);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -144,7 +184,7 @@ li {
 
 footer {
   text-align: center;
-  padding: 16px;
+  padding: var(--fs-base);
   background-color: #d9d9d9;
 }
 
@@ -191,7 +231,7 @@ footer {
   }
 
   .logo {
-    font-size: 18px;
+    font-size: var(--fs-big);
   }
 
   #opacityLayer {
@@ -264,7 +304,7 @@ footer {
   }
 
   .button-text {
-    font-size: 16px;
+    font-size: var(--fs-base);
   }
 
   .promo-banner-content {
@@ -274,7 +314,7 @@ footer {
 
   .promo-banner-ribbon {
     width: 400px;
-    font-size: 14px;
+    font-size: var(--fs-small);
     padding: 10px;
     position: absolute;
     right: -170px;
@@ -288,7 +328,7 @@ footer {
     z-index: 1;
   }
   .ribbon-content {
-    font-size: 10px;
+    font-size: var(--fs-smaller);
   }
   .promo-banner-btn {
     max-width: 150px;
@@ -318,11 +358,11 @@ footer {
     color: #ffff;
     font-family: "Helvetica";
     font-weight: 400;
-    font-size: 18px;
+    font-size: var(--fs-big);
   }
 
   .button-text {
-    font-size: 18px;
+    font-size: var(--fs-big);
   }
 
   .close-btn {
@@ -334,19 +374,22 @@ footer {
   }
 
   h1 {
-    font-size: 48px;
+    /* 36 + 12 = 48 */
+    font-size: calc(var(--fs-h1) + var(--fs-desktop) * 1.5);
   }
 
   h2 {
-    font-size: 32px;
+    /* 24 + 8 = 32 */
+    font-size: calc(var(--fs-h1) + var(--fs-desktop));
   }
 
   p {
-    font-size: 24px;
+    /* 16 + 8 = 24 */
+    font-size: calc(var(--fs-base) + var(--fs-desktop));
   }
 
   .subheader {
-    font-size: 16px;
+    font-size: var();
   }
 
   .button {
@@ -354,14 +397,15 @@ footer {
   }
   
   .logo {
-    font-size: 24px;
+    font-size: var(--fs-biggest);
   }
   .promo-banner-btn {
     max-width: 150px;
   }
+
   .promo-banner-ribbon {
     width: 200px;
-    font-size: 19px;
+    font-size: var(--fs-bigger);
     padding: 20px;
     position: absolute;
     right: -20px;
