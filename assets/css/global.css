@@ -21,6 +21,7 @@
   --clr-tertiary:           hsla(0, 100%, 50%, 0.2);
   --clr-tertiary-f:    	    hsla(0, 100%, 80%, 1.0);
   --clr-tertiary-opacity: 	hsla(0, 33%, 50%, 0.8);
+  --clr-tertiary-cookie:    hsla(27.5, 62.4%, 48%, 1.0);
 
   /* neutrals */
   --clr-ntrl-min:       hsl(0, 0%, 100%);

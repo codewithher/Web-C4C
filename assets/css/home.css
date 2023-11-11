@@ -1,5 +1,5 @@
 .hero {
-  background-color: #F8F8F3;
+  background-color: var(--clr-ntrl-min);
   position: relative;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .hero-content {
-  background-color: #FFF;
+  background-color: var(--clr-ntrl-min);
   padding: 32px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .cookie {
-  background-color: #C7742E; 
+  background-color: var(--clr-tertiary-cookie); 
 }
 
 .cookie .home-copy {
