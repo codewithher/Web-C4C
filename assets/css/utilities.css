@@ -74,6 +74,9 @@
 .jc-fs {
   justify-content: flex-start;
 }
+.js-c {
+  justify-content: center;
+}
 
 .centered-container {
   text-align: center;
