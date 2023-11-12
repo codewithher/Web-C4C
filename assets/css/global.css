@@ -430,9 +430,15 @@ footer {
   .promo-banner {
     top: 5.6em;
   }
-  
+
   .promo-banner-btn {
-    max-width: 150px;
+    max-width: 250px;
+    min-width: 160px;
+    box-shadow: none;
+    background-color: var(--clr-ntrl-mid);
+  }
+  .promo-banner-btn:hover {
+    background-color: var(--clr-secondary);
   }
 
   .promo-banner-ribbon {
