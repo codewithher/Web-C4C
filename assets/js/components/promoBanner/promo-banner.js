@@ -26,17 +26,16 @@ class PromoBanner extends HTMLElement {
                 Monthly Promo
             </span>
         </div>
-        <div class="promo-banner-container flex ai-c js-c">
+        <div class="promo-banner-container">
             <img class='promo-banner-image'src="assets/images/cookies/${this.cookie.image}.png" alt="Monthly Cookie Image"/>
             <div class="promo-banner-content">
                 <p>${this.cookie.description}</p>
-                <h1 class="promo-cookie">${this.cookie.name}</h1>
+                <a class="button promo-banner-btn" href="cookies.html">
+                    <h1 class="promo-cookie button-hover-underline">${this.cookie.name}</h1>
+                </a>
             </div>
-            <a class="button promo-banner-btn" href="cookies.html">
-                <span class="button-text button-hover-underline">
-                    Learn More
-                </span>
-            </a>
+            <img class='promo-banner-image'src="assets/images/cookies/${this.cookie.image}.png" alt="Monthly Cookie Image"/>
+            
         </div>`
     }
 
