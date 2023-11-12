@@ -1,5 +1,5 @@
 .hero {
-  background-color: #F8F8F3;
+  background-color: var(--clr-ntrl-min);
   padding: 16px;
 }
 
@@ -19,7 +19,7 @@ p {
 
 .container {
   padding: 40px 24px;
-  color:#FFFFFF;
+  color:var(--clr-ntrl-min);
 }
 
 .badges-container {
@@ -35,7 +35,7 @@ p {
 }
 
 .sales-initiative {
-  background-color: #C7742E; 
+  background-color: var(--clr-tertiary-lt);
 }
 
 .sales-initiative .badge:nth-child(3n) {
@@ -43,7 +43,7 @@ p {
 }
 
 .learning {
-  background-color: #7A463B; 
+  background-color: var(--clr-tertiary-dk);
 }
 
 .learning .badge {
