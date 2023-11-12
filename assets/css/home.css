@@ -49,7 +49,7 @@
 }
 
 .cookie {
-  background-color: var(--clr-tertiary-cookie); 
+  background-color: var(--clr-tertiary-lt); 
 }
 
 .cookie .home-copy {

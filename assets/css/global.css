@@ -12,6 +12,7 @@
   --clr-primary-f-lt:  hsl(190, 40%, 75%);
   --clr-primary-f-dk:  hsl(190, 40%, 15%);
   --clr-primary-lt:    hsl(190, 40%, 50%);
+  --clr-primary-ltr:   hsl(190, 40%, 75%);
 
   /* secondary brand color - yellow - with shades and tints via HSL */
   --clr-secondary:      hsl(50, 80%, 70%);
@@ -21,13 +22,15 @@
   --clr-tertiary:           hsla(0, 100%, 50%, 0.2);
   --clr-tertiary-f:    	    hsla(0, 100%, 80%, 1.0);
   --clr-tertiary-opacity: 	hsla(0, 33%, 50%, 0.8);
-  --clr-tertiary-cookie:    hsla(27.5, 62.4%, 48%, 1.0);
+  --clr-tertiary-lt:        hsla(27.5, 60%, 50%, 1.0);
+  --clr-tertiary-dk:        hsla(27.5, 60%, 30%, 1.0);
 
   /* neutrals */
   --clr-ntrl-min:       hsl(0, 0%, 100%);
   --clr-ntrl-mid:       hsl(0, 0%, 85%);
   --clr-ntrl-max:       hsl(0, 0%, 0%);
   --clr-opacity:        hsla(0, 0%, 0%, 0.3);
+  --clr-shadow:         hsla(0, 0%, 0%, 0.2);
 
   /* base font size */
   --fs-base: 16px;
@@ -44,8 +47,8 @@
 
   /* smaller than heading font sizes */
   --fs-small: 14px;
-  --fs-smaller: 10px;
-  --fs-smallest:  8px;
+  --fs-smaller: 12px;
+  --fs-smallest:  10px;
 
   /* Responsiveness modififer */
   --fs-desktop: 8px;
@@ -61,7 +64,7 @@ html {
 
 main {
   border: 1px solid hsl(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 16px hsl(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 16px var(--clr-shadow);
   margin: 60px auto 0;
   max-width: 600px;
 }
@@ -334,7 +337,7 @@ footer {
     z-index: 1;
   }
   .ribbon-content {
-    font-size: var(--fs-smaller);
+    font-size: var(--fs-smallest);
   }
   .promo-banner-btn {
     max-width: 150px;
