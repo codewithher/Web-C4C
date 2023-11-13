@@ -30,7 +30,7 @@ class PromoBanner extends HTMLElement {
             <img class='promo-banner-image'src="assets/images/cookies/${this.cookie.image}.png" alt="Monthly Cookie Image"/>
             <div class="promo-banner-content">
                 <p>${this.cookie.description}</p>
-                <a class="button promo-banner-btn" href="cookies.html">
+                <a class="button navigation-btn" href="cookies.html">
                     <h1 class="promo-cookie button-hover-underline">${this.cookie.name}</h1>
                 </a>
             </div>

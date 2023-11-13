@@ -31,6 +31,7 @@
   --clr-ntrl-max:       hsl(0, 0%, 0%);
   --clr-opacity:        hsla(0, 0%, 0%, 0.3);
   --clr-shadow:         hsla(0, 0%, 0%, 0.2);
+  --clr-transparent:    hsla(0, 0%, 0%, 0);
 
   /* base font size */
   --fs-base: 16px;
@@ -139,6 +140,10 @@ li {
   text-transform: uppercase;
 }
 
+/* .header-menu-link:hover {
+  background: var(--clr-secondary);
+} */
+
 .button {
   background-color: var(--clr-secondary);
   box-shadow: 0px 1px 3px var(--clr-opacity);
@@ -227,12 +232,18 @@ footer {
   filter: drop-shadow(5px 5px 5px var(--clr-tertiary-opacity));
 }
 
-.promo-banner-btn:hover {
-  background: #4c4b17;
+.navigation-btn {
+  max-width: 200px;
+  min-width: 160px;
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 5px 5px 5px 5px;
+  background-color: var(--clr-transparent);
 }
 
-.promo-banner-btn:hover {
-  color: var(--clr-ntrl-min);
+.navigation-btn:hover {
+  color: var(--clr-primary-f-dk);
+  background-color: var(--clr-secondary);
 }
 
 .ribbon-content {
@@ -349,18 +360,11 @@ footer {
     color: var(--clr-ntrl-min);
     z-index: 1;
   }
+
   .ribbon-content {
     font-size: var(--fs-smallest);
   }
-  .promo-banner-btn {
-    max-width: 200px;
-    min-width: 160px;
-    box-shadow: none;
-    background-color: var(--clr-ntrl-mid);
-  }
-  .promo-banner-btn:hover {
-    background-color: var(--clr-secondary);
-  }
+
 }
 
 /*DESKTOP STYLES*/
@@ -430,16 +434,6 @@ footer {
   .promo-banner {
     top: 5.6em;
     height: fit-content;
-  }
-
-  .promo-banner-btn {
-    max-width: 250px;
-    min-width: 160px;
-    box-shadow: none;
-    background-color: var(--clr-ntrl-mid);
-  }
-  .promo-banner-btn:hover {
-    background-color: var(--clr-secondary);
   }
 
   .promo-banner-ribbon {
