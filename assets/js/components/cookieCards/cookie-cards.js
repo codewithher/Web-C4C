@@ -16,7 +16,7 @@ class CookieCards extends HTMLElement {
         ${this.cookies.map(cookie =>
         `
           <li class="cookie-card">
-            <div class="cookie-card-ui cookie-card-front">
+            <div class="cookie-card-ui ${cookie.popular ? 'popular-cookie' : 'regular-cookie'} cookie-card-front">
                 <div class="cookie-image-container">
                   <img class="cookie-image" src="assets/images/cookies/${cookie.image}.png" alt="${cookie.name}">
                 </div>
@@ -27,7 +27,7 @@ class CookieCards extends HTMLElement {
                   <button class="cookie-card-button cookie-card-front-cta">See Details</button>
                 </div>
             </div>
-            <div class="cookie-card-ui cookie-card-back">
+            <div class="cookie-card-ui ${cookie.popular ? 'popular-cookie' : 'regular-cookie'} cookie-card-back">
                 <p1>${cookie.description}</p1> 
               <button class="cookie-card-button cookie-card-back-cta"><img src="assets/images/cookies/cookie-card-close-button.png" alt="Close Button"></button>
             </div>
