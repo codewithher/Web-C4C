@@ -1,39 +1,43 @@
 * {
+    /* BEGIN: Change Color Themes */
+    
+    /* base font color */
+    --clr-base-f:             hsl(0, 0%, 25%);
+
+    /* primary brand color - blue - with shades and tints via HSL */
+    --clr-primary:            hsl(190, 40%, 35%);         /* Navigation Bar */
+    --clr-primary-f-lt:       hsl(190, 40%, 75%);         /* Navigation Bar Font */
+    --clr-primary-lt:         hsl(190, 40%, 50%);         /* Used for Promotion Bar */
+    --clr-primary-ltr:        hsl(190, 40%, 75%);         /* Used for cookies */
+  
+    /* secondary brand color - yellow - with shades and tints via HSL */
+    --clr-secondary:          hsl(50, 80%, 70%);          /* Button Before */
+    --clr-secondary-dk:       hsl(50, 80%, 20%);          /* Button After */
+  
+    /* tertiary brand color - red - with shades and tints via HSL */
+    --clr-tertiary:           hsl(0, 90%, 20%);           /* Popular Banner*/
+    --clr-tertiary-f:    	    hsla(0, 100%, 80%, 1.0);    /* Promotion Ribbon */
+    --clr-tertiary-opacity: 	hsla(0, 33%, 50%, 0.8);     /* Promotion Banner */
+    
+    /* quarternary brand color - brown - with shades and tints via HSL */
+    --clr-quarternary-lt:     hsla(27.5, 60%, 50%, 1.0);  /* Home Page + Goals */
+    --clr-quarternary-dk:     hsla(27.5, 60%, 30%, 1.0);  /* Goals */
+  
+    /* neutrals - white - with shades and tints via HSL */
+    --clr-ntrl-min:           hsl(0, 0%, 100%);           /* Background */
+    --clr-ntrl-mid:           hsl(0, 0%, 85%);            /* Promo Background */
+    /* END: Change Color Themes */
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
-  /** CSS VARIABLES **/
-  /* our base color, with one tint, and one shade - body and typogaphry is generally the base colour */
-  --clr-base-f:    hsl(0, 0%, 40%);
-
-  /* primary brand color - blue - with shades and tints via HSL */
-  --clr-primary:       hsl(190, 40%, 35%);
-  --clr-primary-f-lt:  hsl(190, 40%, 75%);
-  --clr-primary-f-dk:  hsl(190, 40%, 15%);
-  --clr-primary-lt:    hsl(190, 40%, 50%);  /* Used for cookies */
-  --clr-primary-ltr:   hsl(190, 40%, 75%);  /* Used for cookies */
-
-  /* secondary brand color - yellow - with shades and tints via HSL */
-  --clr-secondary:      hsl(50, 80%, 70%);
-  --clr-secondary-dk:    hsl(50, 80%, 20%);
-
-  /* tertiary brand color - red - with shades and tints via HSL */
-  --clr-tertiary:           hsl(0, 90%, 20%);
-  --clr-tertiary-f:    	    hsla(0, 100%, 80%, 1.0);
-  --clr-tertiary-opacity: 	hsla(0, 33%, 50%, 0.8);
-  
-  /* quarternary brand color */
-  --clr-quarternary-lt:        hsla(27.5, 60%, 50%, 1.0);
-  --clr-quarternary-dk:        hsla(27.5, 60%, 30%, 1.0);
-
-  /* neutrals */
-  --clr-ntrl-min:       hsl(0, 0%, 100%);
-  --clr-ntrl-mid:       hsl(0, 0%, 85%);
-  --clr-ntrl-max:       hsl(0, 0%, 0%);
-  --clr-opacity:        hsla(0, 0%, 0%, 0.3);
-  --clr-shadow:         hsla(0, 0%, 0%, 0.2);
-  --clr-transparent:    hsla(0, 0%, 0%, 0);
+  /* Shadows */
+  --clr-opacity:            hsla(0, 0%, 0%, 0.3);
+  --clr-shadow:             hsla(0, 0%, 0%, 0.2);
+  --clr-transparent:        hsla(0, 0%, 0%, 0);
 
   /* base font size */
   --fs-base: 16px;
@@ -56,11 +60,14 @@
   /* Responsiveness modififer */
   --fs-desktop: 8px;
 
+  /* BEGIN: Change Font Family */
   /* Font */
   --ff-primary: "Helvetica";
+  /* END: Change Font Family */
 }
 
 html {
+  color: var(--clr-base-f);
   height: 100%;
   width: 100%;
 }
@@ -107,7 +114,7 @@ h1 {
 }
 
 h2 {
-  color: var(--clr-ntrl-max);
+  color: var(--clr-base-f);
   font-size: var(--fs-h2);
   line-height: 1.25;
   text-decoration: underline;
@@ -136,15 +143,10 @@ li {
 }
 
 .subheader {
-  color: var(--clr-primary-f-dk);
   font-size: var(--fs-small);
   font-weight: bold;
   text-transform: uppercase;
 }
-
-/* .header-menu-link:hover {
-  background: var(--clr-secondary);
-} */
 
 .button {
   background-color: var(--clr-secondary);
@@ -244,7 +246,6 @@ footer {
 }
 
 .navigation-btn:hover {
-  color: var(--clr-primary-f-dk);
   background-color: var(--clr-secondary);
 }
 
