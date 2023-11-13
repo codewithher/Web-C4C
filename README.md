@@ -16,6 +16,8 @@ There are some quirks when working locally and it will save you some time to wor
 When working on this learning template, we want to ensure that all parties are getting a taste of what it would be like to work on a professional team. 
 It is not enough to just contribute code, you will need to review your peers' code as well.
 
+For version control in Replit, watch this [Loom recording to see how to contribute your edits](https://www.loom.com/share/a75ab38904184ef49d70e6f578756ad9?sid=8b5e1d50-01da-4773-bdc6-a225a47c524c).
+
 ### Rules for contributing code/working
 
 1. **Never, never, work off of main. Always make sure you are on your branch.**
@@ -37,4 +39,5 @@ It is not enough to just contribute code, you will need to review your peers' co
 3. No question is too dumb, silly, whatever. Ask whatever you have on your mind.
 4. If you think there is a better way to approach the solution, say it! This is a place where all ideas are heard.
 
-If you have questions/concerns, reach out to [Maile](maile@codewithher.org) or [Lina](lina@codewithher.org)
+If you have questions/concerns, reach out to [Ryan](rlay@ucsd.edu) or [Lina](lina@codewithher.org)
+
