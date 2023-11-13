@@ -49,9 +49,9 @@
 }
 
 .cookie-card-ui.popular-cookie {
-  background-color: #bcdee6;
-  border: 1px solid #bcdee6;
-  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  background-color: var(--clr-primary-ltr);
+  border: 1px solid var(--clr-primary-ltr);
+  box-shadow: 2px 2px 5px var(--clr-shadow);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,8 +69,8 @@
 
 .cookie-card-ui.popular-cookie::before {
   content: "Popular";
-  background-color: #660505;
-  color: white;
+  background-color: var(--clr-tertiary);
+  color: var(--clr-ntrl-min);
   position: absolute;
   top: 0;
   right: 0;

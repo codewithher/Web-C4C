@@ -1,11 +1,18 @@
-// Fetch cookie data
+/**
+ * This script creates all the cookie cards
+ * 
+ */
+
+// Describes how to fetch cookie data into cookie variable
 const getCookies = async () => {
   const response = await fetch("./assets/js/components/cookieCards/cookies.json");
   return await response.json();
 }
 
+// Asks out function to fetch cookie data
 const cookieData = await getCookies();
 
+// Puts cookie variable into cookie cards
 class CookieCards extends HTMLElement {
 
   constructor() {
