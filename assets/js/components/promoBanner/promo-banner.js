@@ -1,9 +1,18 @@
+/**
+ * This script creates the promotion banner for each month
+ * 
+ */
+
+// Describes how to fetch cookie data from file into cookie variable
 const getMonthlyCookieData = async () => {
     const response = await fetch('./assets/js/components/promoBanner/cookie-month.json');
     return response.json();
 }
+
+// Asks our function to fetch cookie data
 const cookieData = await getMonthlyCookieData();
 
+// Tidies up cookie variable
 const chooseCookieByMonth = () => {
     const month = new Date().getMonth();
     const monthlyCookie = {
@@ -14,6 +23,7 @@ const chooseCookieByMonth = () => {
     return monthlyCookie;
 }
 
+// Puts cookie variable into promotion banner
 class PromoBanner extends HTMLElement {
 
     constructor() {
