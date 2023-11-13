@@ -1,7 +1,7 @@
 [
   {
     "name": "Adventurefuls",
-    "description": "Two graham cracker cookies with chocolate and marshmallow in between.",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
     "image": "adventurefuls",
     "popular": false
   },
@@ -13,49 +13,49 @@
   },
   {
     "name": "Lemon-ups",
-    "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.",
+    "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.(UPDATE ME)",
     "image": "lemonups",
     "popular": false
   },
   {
     "name": "Raspberry Rallys",
-    "description": "A new flavor to try! Treat yourself with a raspberry flavored cookie!",
+    "description": "A new flavor to try! Treat yourself with a raspberry flavored cookie!(UPDATE ME)",
     "image": "raspberryrally",
     "popular": true
   },
   {
     "name": "S'mores",
-    "description": "Two graham cracker cookies with chocolate and marshmallow in between.",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
     "image": "smores",
     "popular": true
   },
   {
     "name": "Samoas",
-    "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.",
+    "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.(UPDATE ME)",
     "image": "samoas",
     "popular": false
   },
   {
     "name": "Tagalongs",
-    "description": "A chocolate covered cookie patty with a peanut butter filling.",
+    "description": "A chocolate covered cookie patty with a peanut butter filling.(UPDATE ME)",
     "image": "tagalongs",
     "popular": false
   },
   {
     "name": "Thin Mints",
-    "description": "A chocolate mint cookie covered in extra mint chocolate frosting.",
+    "description": "A chocolate mint cookie covered in extra mint chocolate frosting.(UPDATE ME)",
     "image": "thinmints",
     "popular": false
   },
   {
     "name": "Toffeetastic",
-    "description": "A gluten-free shortbread cookie with toffee bits.",
+    "description": "A gluten-free shortbread cookie with toffee bits.(UPDATE ME)",
     "image": "toffeetastic",
     "popular": false
   },
   {
     "name": "Trefoils",
-    "description": "A traditional shortbread sugar cookie.",
+    "description": "A traditional shortbread sugar cookie.(UPDATE ME)",
     "image": "trefoils",
     "popular": false
   }
