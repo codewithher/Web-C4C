@@ -35,7 +35,7 @@ p {
 }
 
 .sales-initiative {
-  background-color: var(--clr-tertiary-lt);
+  background-color: var(--clr-quarternary-lt);
 }
 
 .sales-initiative .badge:nth-child(3n) {
@@ -43,7 +43,7 @@ p {
 }
 
 .learning {
-  background-color: var(--clr-tertiary-dk);
+  background-color: var(--clr-quarternary-dk);
 }
 
 .learning .badge {
