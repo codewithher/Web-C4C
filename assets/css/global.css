@@ -264,6 +264,12 @@ footer {
   min-width: 400px;
 }
 
+@media only screen and (max-width: 525px) {
+  .promo-banner-image {
+      display: none; /* Hide the images */
+  }
+}
+
 @media (max-width: 1099px) {
   header {
     justify-content: space-between;
