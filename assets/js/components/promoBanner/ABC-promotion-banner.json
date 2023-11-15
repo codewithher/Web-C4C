@@ -1,7 +1,7 @@
 [
     {
         "month": "January",
-        "name": "S'mores",
+        "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "smores"
     },
@@ -13,7 +13,7 @@
     },
     {
         "month": "March",
-        "name": "Do-si-dos",
+        "name": "P. B. Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "dosidos"
     },
@@ -25,21 +25,21 @@
     },
     {
         "month": "May",
-        "name": "Tagalongs",
+        "name": "P. B. Patties",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "tagalongs"
     },
     {
         "month": "June",
-        "name": "Lemon-ups",
+        "name": "Lemonades",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "lemonups"
     },
     {
         "month": "July",
-        "name": "Raspberry Rallys",
+        "name": "Trefoils",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "raspberryrally"
+        "image": "trefoils"
     },
     {
         "month": "August",
@@ -49,26 +49,26 @@
     },
     {
         "month": "September",
-        "name": "Samoas",
+        "name": "Caramel deLites",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "samoas"
     },
     {
         "month": "October",
-        "name": "Toffeetastic",
+        "name": "C. C. Chip",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "toffeetastic"
     },
     {
         "month": "November",
-        "name": "Do-si-dos",
+        "name": "P. B. Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "dosidos"
     },
     {
         "month": "December",
-        "name": "Raspberry Rallys",
+        "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "raspberryrally"
+        "image": "smores"
     }
-]
+  ]

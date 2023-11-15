@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Adventurefuls",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
+    "image": "adventurefuls",
+    "popular": false
+  },
+  {
+    "name": "P. B. Sandwich",
+    "description": "An oatmeal sandwich cookie with a peanut butter filling.",
+    "image": "dosidos",
+    "popular": false
+  },
+  {
+    "name": "Lemonades",
+    "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.(UPDATE ME)",
+    "image": "lemonups",
+    "popular": false
+  },
+  {
+    "name": "Toast-Yay!",
+    "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
+    "image": "smores",
+    "popular": true
+  },
+  {
+    "name": "Caramel deLites",
+    "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.(UPDATE ME)",
+    "image": "samoas",
+    "popular": false
+  },
+  {
+    "name": "P. B. Patties",
+    "description": "A chocolate covered cookie patty with a peanut butter filling.(UPDATE ME)",
+    "image": "tagalongs",
+    "popular": false
+  },
+  {
+    "name": "Thin Mints",
+    "description": "A chocolate mint cookie covered in extra mint chocolate frosting.(UPDATE ME)",
+    "image": "thinmints",
+    "popular": false
+  },
+  {
+    "name": "Caramel Chocolate Chip",
+    "description": "A gluten-free shortbread cookie with toffee bits.(UPDATE ME)",
+    "image": "toffeetastic",
+    "popular": false
+  },
+  {
+    "name": "Trefoils",
+    "description": "A traditional shortbread sugar cookie.(UPDATE ME)",
+    "image": "trefoils",
+    "popular": false
+  }
+]

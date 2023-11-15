@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- Meta Data: Sets up and connects CSS (styling) files to the page -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,12 +11,14 @@
 </head>
 
 <body>
-  <!--HEADER-->
+  <!-- Header: Title -->
   <header class="flex ai-c">
-    <a class="logo" href="index.html">[INSERT NAME]'s Cookie Site</a>
-
+    <!-- BEGIN - Activity 1: Insert your first name -->
+    <a class="logo" href="index.html">[INSERT NAME] Cookie Site</a>
+    <!-- END - Activity 1: Insert your name -->
     <div id="opacityLayer"></div>
 
+    <!-- Navigation bar: adds all links to visit -->
     <div id="menu" class="menu-div">
       <nav id="header-nav" class="header-menu-sidebar">
         <ul class="nav-content">
@@ -31,7 +33,12 @@
             </a>
           </li>
           <li>
+
+            <!-- BEGIN - Activity 5: Input Your Own Digital Cook Link -->
             <a class="button" href="https://www.girlscouts.org/en/cookies.html" target="_blank">
+            <!-- END - Activity 5: Input Your Own Digital Cook Link -->
+  
+            <!-- Navigation - purchase button -->
               <span class="button-text button-hover-underline">
                 Buy Now
               </span>
@@ -40,11 +47,13 @@
         </ul>
       </nav>
 
+      <!-- Navigation: close menu -->
       <button type="button" id="mobile-menu-trigger-close" class="close-btn" alt="Close Menu Button">
         <img class="close-img" src="assets/images/menu-close-btn.svg" alt="Close Menu Button" />
       </button>
     </div>
 
+    <!-- Navigation: open menu -->
     <button type="button" id="mobile-menu-trigger-open" class="open-btn" alt="Open Menu Button">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -58,7 +67,7 @@
       <promo-banner></promo-banner>
     </section>
     
-    <!--COOKIE CATALOG-->
+    <!-- Cookie Catalog -->
     <h1 class="cookie-header">Cookies Catalog</h1>
 
     <div class="cookie-container">
@@ -69,7 +78,7 @@
     </div>
   </main>
 
-  <!--FOOTER-->
+  <!-- Footer: information on the bottom of the page -->
   <footer>
     <a href="https://codewithher.org/" target="_blank"><img src="assets/images/cwh-logo.svg" alt="CWH Logo" /></a>
   </footer>
@@ -78,7 +87,6 @@
 <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 <script type="module" src="assets/js/components/cookieCards/cookie-cards.js"></script>
 <script type="module" src="assets/js/components/promoBanner/promo-banner.js"></script>
-
 <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 
 </html>
