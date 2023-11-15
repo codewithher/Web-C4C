@@ -5,17 +5,19 @@
 // Describes how to fetch cookie data into cookie variable
 const getCookies = async () => {
   /** BEGIN - Activity 9: Conditional */
-  const BAKERY = "";      // Pick One: "ABC" or "LBBC"
+  const BAKERY = "CHANGEME";      // Pick One: "ABC" or "LBBC"
   /** END - Activity 9: Conditional */
-  var response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json");
   if (BAKERY === "ABC") {
     // ABC Cookies Bakery
-    response = await fetch("./assets/js/components/cookieCards/ABC-cookies.json")
-  } else {
+    const response = await fetch("./assets/js/components/cookieCards/ABC-cookies.json");
+    return await response.json();
+  } 
+  if (BAKERY === "LBBC") {
     // Little Brownie Bakers Cookies Bakery
-    response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json")
+    const response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json");
+    return await response.json();
   }
-  return await response.json();
+  return {};
 }
 
 // Asks out function to fetch cookie data
@@ -36,7 +38,7 @@ class CookieCards extends HTMLElement {
                 <div class="cookie-image-container">
                   <img class="cookie-image" src="assets/images/cookies/${cookie.image}.png" alt="${cookie.name}">
                 </div>
-                  <h3 class="cookie-name">
+                  <h3 class="cookie-name ellipsis" title="${cookie.name}">
                     ${cookie.name}
                   </h3>
                 <div class="cookie-card-front-cta-container">
