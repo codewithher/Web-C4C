@@ -37,9 +37,9 @@
     },
     {
         "month": "July",
-        "name": "Raspberry Rallys",
+        "name": "Trefoils",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "raspberryrally"
+        "image": "trefoils"
     },
     {
         "month": "August",
@@ -67,8 +67,8 @@
     },
     {
         "month": "December",
-        "name": "Raspberry Rallys",
+        "name": "S'mores",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "raspberryrally"
+        "image": "smores"
     }
 ]
