@@ -1,7 +1,7 @@
 [
     {
         "month": "January",
-        "name": "S'mores",
+        "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "smores"
     },
@@ -13,7 +13,7 @@
     },
     {
         "month": "March",
-        "name": "Do-si-dos",
+        "name": "Peanut Butter Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "dosidos"
     },
@@ -25,13 +25,13 @@
     },
     {
         "month": "May",
-        "name": "Tagalongs",
+        "name": "Peanut Butter Patties",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "tagalongs"
     },
     {
         "month": "June",
-        "name": "Lemon-ups",
+        "name": "Lemonades",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "lemonups"
     },
@@ -49,26 +49,26 @@
     },
     {
         "month": "September",
-        "name": "Samoas",
+        "name": "Caramel deLites",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "samoas"
     },
     {
         "month": "October",
-        "name": "Toffeetastic",
+        "name": "Caramel Chocolate Chip",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "toffeetastic"
     },
     {
         "month": "November",
-        "name": "Do-si-dos",
+        "name": "Peanut Butter Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "dosidos"
     },
     {
         "month": "December",
-        "name": "S'mores",
+        "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
         "image": "smores"
     }
-]
+  ]

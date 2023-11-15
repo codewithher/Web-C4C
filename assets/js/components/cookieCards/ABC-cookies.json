@@ -6,31 +6,31 @@
     "popular": false
   },
   {
-    "name": "Do-si-dos",
+    "name": "Peanut Butter Sandwich",
     "description": "An oatmeal sandwich cookie with a peanut butter filling.",
     "image": "dosidos",
     "popular": false
   },
   {
-    "name": "Lemon-ups",
+    "name": "Lemonades",
     "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.(UPDATE ME)",
     "image": "lemonups",
     "popular": false
   },
   {
-    "name": "S'mores",
+    "name": "Toast-Yay!",
     "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
     "image": "smores",
     "popular": true
   },
   {
-    "name": "Samoas",
+    "name": "Caramel deLites",
     "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.(UPDATE ME)",
     "image": "samoas",
     "popular": false
   },
   {
-    "name": "Tagalongs",
+    "name": "Peanut Butter Patties",
     "description": "A chocolate covered cookie patty with a peanut butter filling.(UPDATE ME)",
     "image": "tagalongs",
     "popular": false
@@ -42,7 +42,7 @@
     "popular": false
   },
   {
-    "name": "Toffeetastic",
+    "name": "Caramel Chocolate Chip",
     "description": "A gluten-free shortbread cookie with toffee bits.(UPDATE ME)",
     "image": "toffeetastic",
     "popular": false
