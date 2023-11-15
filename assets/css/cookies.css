@@ -127,10 +127,10 @@
 }
 
 .ellipsis:hover {
-  white-space: normal; /* Allow the text to wrap when hovering */
-  overflow: visible;  /* Display the full content when hovering */
-  text-overflow: initial; /* Remove ellipsis when hovering */
-  z-index: 1; /* Ensure the tooltip is above other elements */
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+  z-index: 1;
 }
 
 p1{
