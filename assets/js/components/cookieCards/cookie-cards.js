@@ -1,11 +1,20 @@
 /**
  * This script creates all the cookie cards
- * 
  */
 
 // Describes how to fetch cookie data into cookie variable
 const getCookies = async () => {
-  const response = await fetch("./assets/js/components/cookieCards/cookies.json");
+  /** BEGIN - Activity 9: Conditional */
+  const BAKERY = "";      // Pick One: "ABC" or "LBBC"
+  /** END - Activity 9: Conditional */
+  var response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json");
+  if (BAKERY === "ABC") {
+    // ABC Cookies Bakery
+    response = await fetch("./assets/js/components/cookieCards/ABC-cookies.json")
+  } else {
+    // Little Brownie Bakers Cookies Bakery
+    response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json")
+  }
   return await response.json();
 }
 
