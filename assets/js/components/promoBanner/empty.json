@@ -1,0 +1,74 @@
+[
+  {
+      "month": "January",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "smores"
+  },
+  {
+      "month": "February",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "adventurefuls"
+  },
+  {
+      "month": "March",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "dosidos"
+  },
+  {
+      "month": "April",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "thinmints"
+  },
+  {
+      "month": "May",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "tagalongs"
+  },
+  {
+      "month": "June",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "lemonups"
+  },
+  {
+      "month": "July",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "trefoils"
+  },
+  {
+      "month": "August",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "trefoils"
+  },
+  {
+      "month": "September",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "samoas"
+  },
+  {
+      "month": "October",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "toffeetastic"
+  },
+  {
+      "month": "November",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "dosidos"
+  },
+  {
+      "month": "December",
+      "name": "Placeholder",
+      "description": "To change, visit promo-banner.js and choose your bakery",
+      "image": "smores"
+  }
+]

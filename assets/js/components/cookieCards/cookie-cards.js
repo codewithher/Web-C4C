@@ -17,7 +17,8 @@ const getCookies = async () => {
     const response = await fetch("./assets/js/components/cookieCards/LBBC-cookies.json");
     return await response.json();
   }
-  return {};
+  const response = await fetch("./assets/js/components/cookieCards/empty.json");
+  return await response.json();
 }
 
 // Asks out function to fetch cookie data
@@ -27,9 +28,9 @@ const cookieData = await getCookies();
 class CookieCards extends HTMLElement {
 
   constructor() {
-    super()
+    super();
     this.cookies = cookieData;
-    this.innerHTML =
+    this.innerHTML = 
       `<ul class="cookie-list">
         ${this.cookies.map(cookie =>
         `

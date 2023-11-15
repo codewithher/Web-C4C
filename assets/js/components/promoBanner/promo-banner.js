@@ -17,7 +17,9 @@ const getMonthlyCookieData = async () => {
       const response = await fetch("./assets/js/components/promoBanner/LBBC-promotion-banner.json");
       return await response.json();
     }
-    return {};
+    // Little Brownie Bakers Cookies Bakery
+    const response = await fetch("./assets/js/components/promoBanner/empty.json");
+    return await response.json();
 };
 
 
