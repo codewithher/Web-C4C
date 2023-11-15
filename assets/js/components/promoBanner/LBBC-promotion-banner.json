@@ -1,0 +1,74 @@
+[
+  {
+      "month": "January",
+      "name": "S'mores",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "smores"
+  },
+  {
+      "month": "February",
+      "name": "Adventurefuls",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "adventurefuls"
+  },
+  {
+      "month": "March",
+      "name": "Do-si-dos",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "dosidos"
+  },
+  {
+      "month": "April",
+      "name": "Thin Mints",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "thinmints"
+  },
+  {
+      "month": "May",
+      "name": "Tagalongs",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "tagalongs"
+  },
+  {
+      "month": "June",
+      "name": "Lemon-ups",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "lemonups"
+  },
+  {
+      "month": "July",
+      "name": "Trefoils",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "trefoils"
+  },
+  {
+      "month": "August",
+      "name": "Trefoils",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "trefoils"
+  },
+  {
+      "month": "September",
+      "name": "Samoas",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "samoas"
+  },
+  {
+      "month": "October",
+      "name": "Toffeetastic",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "toffeetastic"
+  },
+  {
+      "month": "November",
+      "name": "Do-si-dos",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "dosidos"
+  },
+  {
+      "month": "December",
+      "name": "S'mores",
+      "description": "Feeling adventurous? Try this month's signature cookie!",
+      "image": "smores"
+  }
+]
