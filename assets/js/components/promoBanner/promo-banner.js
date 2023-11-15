@@ -1,13 +1,25 @@
 /**
  * This script creates the promotion banner for each month
- * 
  */
 
 // Describes how to fetch cookie data from file into cookie variable
 const getMonthlyCookieData = async () => {
-    const response = await fetch('./assets/js/components/promoBanner/cookie-month.json');
-    return response.json();
-}
+    /** BEGIN - Activity 9: Conditional */
+    const BAKERY = "CHANGEME";      // Pick One: "ABC" or "LBBC"
+    /** END - Activity 9: Conditional */
+    if (BAKERY === "ABC") {
+      // ABC Cookies Bakery
+      const response = await fetch('./assets/js/components/promoBanner/ABC-promotion-banner.json');
+      return await response.json();
+    } 
+    if (BAKERY === "LBBC") {
+      // Little Brownie Bakers Cookies Bakery
+      const response = await fetch("./assets/js/components/promoBanner/LBBC-promotion-banner.json");
+      return await response.json();
+    }
+    return {};
+};
+
 
 // Asks our function to fetch cookie data
 const cookieData = await getMonthlyCookieData();

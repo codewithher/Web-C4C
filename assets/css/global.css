@@ -259,6 +259,7 @@ footer {
   -webkit-filter: drop-shadow(5px 0px 5px var(--clr-opacity));
   filter: drop-shadow(5px 0px 5px var(--clr-opacity));
   line-height: 0.8em;
+  min-width: 400px;
 }
 
 @media (max-width: 1099px) {

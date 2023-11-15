@@ -111,6 +111,9 @@
   position: relative;
   letter-spacing: 0.5px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
 }
 
 .cookie-name:after {
@@ -121,6 +124,13 @@
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.ellipsis:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+  z-index: 1;
 }
 
 p1{

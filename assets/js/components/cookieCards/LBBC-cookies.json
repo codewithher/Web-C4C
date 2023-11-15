@@ -18,12 +18,6 @@
     "popular": false
   },
   {
-    "name": "Raspberry Rallys",
-    "description": "A new flavor to try! Treat yourself with a raspberry flavored cookie!(UPDATE ME)",
-    "image": "raspberryrally",
-    "popular": true
-  },
-  {
     "name": "S'mores",
     "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
     "image": "smores",
