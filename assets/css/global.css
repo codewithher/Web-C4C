@@ -1,5 +1,5 @@
 * {
-    /* BEGIN: Change Color Themes */
+    /* BEGIN - Activity 7: Change Color Themes */
     
     /* base font color */
     --clr-base-f:             hsl(0, 0%, 25%);
@@ -27,6 +27,13 @@
     --clr-ntrl-min:           hsl(0, 0%, 100%);           /* Background */
     --clr-ntrl-mid:           hsl(0, 0%, 85%);            /* Promo Background */
     /* END: Change Color Themes */
+}
+
+* {
+  /* Font Family */
+  /* BEGIN - Activity 8: Change Font Family */
+  --ff-primary: "Helvetica";
+  /* END: Change Font Family */
 }
 
 * {
@@ -59,11 +66,6 @@
 
   /* Responsiveness modififer */
   --fs-desktop: 8px;
-
-  /* BEGIN: Change Font Family */
-  /* Font */
-  --ff-primary: "Helvetica";
-  /* END: Change Font Family */
 }
 
 html {
