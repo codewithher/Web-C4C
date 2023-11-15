@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- The code below sets up and links all the necessary html, css, and js files together so that
-the project can be executed correctly. -->
-<!--  BEGIN ***********DO NOT CHANGE*******  -->
+<!-- Meta Data: Sets up and connects CSS (styling) files to the page -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,21 +9,17 @@ the project can be executed correctly. -->
   <link href="assets/css/global.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/utilities.css" rel="stylesheet" type="text/css" />
 </head>
-<!--  END ***********DO NOT CHANGE*******  -->
 
 <body>
 
-  <!--HEADER-->
-    <!-- BEGIN ***********CODE THE STEPS BELOW******* -->
+  <!-- Header: Title -->
   <header class="flex ai-c">
-    <!-- Activity 1: Insert Your Name -->
+    <!-- BEGIN - Activity 1: Insert your first name -->
     <a class="logo" href="index.html">[INSERT NAME] Cookie Site</a>
-    <!-- # END ***********FINISH CODING STEPS ABOVE******* -->
+    <!-- END - Activity 1: Insert your name -->
     <div id="opacityLayer"></div>
 
-    <!--  BEGIN ***********DO NOT CHANGE*******  -->
-    <!-- This section write the code fo the navigation bar so that you can navigate
-    to the different pages of the website. -->
+    <!-- Navigation bar: adds all links to visit -->
     <div id="menu" class="menu-div">
       <nav id="header-nav" class="header-menu-sidebar">
         <ul class="nav-content">
@@ -40,14 +34,12 @@ the project can be executed correctly. -->
             </a>
           </li>
           <li>
-    <!--  END ***********DO NOT CHANGE*******  -->
 
-            <!-- BEGIN ***********CODE THE STEPS BELOW******* -->
-            <!-- Activity 5: Input Your Own Digital Cook Link -->
+            <!-- BEGIN - Activity 5: Input Your Own Digital Cook Link -->
             <a class="button" href="https://www.girlscouts.org/en/cookies.html" target="_blank">
-            <!-- # END ***********FINISH CODING STEPS ABOVE******* -->
+            <!-- END - Activity 5: Input Your Own Digital Cook Link -->
   
-    <!--  BEGIN ***********DO NOT CHANGE*******  -->
+            <!-- Navigation - purchase button -->
               <span class="button-text button-hover-underline">
                 Buy Now
               </span>
@@ -56,11 +48,13 @@ the project can be executed correctly. -->
         </ul>
       </nav>
 
+      <!-- Navigation: close menu -->
       <button type="button" id="mobile-menu-trigger-close" class="close-btn" alt="Close Menu Button">
         <img class="close-img" src="assets/images/menu-close-btn.svg" alt="Close Menu Button" />
       </button>
     </div>
 
+    <!-- Navigation: open menu -->
     <button type="button" id="mobile-menu-trigger-open" class="open-btn" alt="Open Menu Button">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -69,31 +63,26 @@ the project can be executed correctly. -->
   </header>
 
   <main>
-    <!--PROMO-BANNER-->
+    <!-- Promo Banner: reminds readers that there are promoted cookies on sale -->
     <section class="promo-banner">
       <promo-banner></promo-banner>
     </section>
-    
-    <!--HERO-->
+
+    <!-- Content: Title -->
     <section class="hero">
       <h1>Hall of Awesome Goals</h1>
     </section>
-    <!-- # END ***********FINISH CODING STEPS ABOVE******* -->
-
-
-    <!--SALES INITIATIVE-->
+    
+    <!-- BEGIN - Activity 6: Goals -->
+    <!-- Content: Sales initiative -->
     <section class="sales-initiative container">
       <h2 class="white-text">Sales Initiative</h2>
-      <!-- BEGIN ***********CODE THE STEPS BELOW******* -->
-      <!-- ACTIVITY 6: ADD MORE TEXT TO THIS SECTION (PERSONALIZE IT) -->
-      <p class="white-text">
-        With your support, my troop will be able to: (UPDATE ME)
-      </p>
-      <!-- END ***********CODE THE STEPS BELOW******* -->
+        <p class="white-text">
+          With your support, my troop will be able to: (UPDATE ME)
+        </p>
+    <!-- END - Activity 6: Goals -->
 
-  <!--  BEGIN ***********DO NOT CHANGE*******  -->
-      </div>
-      <!-- These are the different graphics you see in the "Sales Initiative section" -->
+      <!-- Content: circle badge images -->
       <div class="badges-container flex ai-c jc-sb">
         <img class="badge" src="assets/images/goals/badge1.svg" alt="Picture of Badge 1" />
         <img class="badge" src="assets/images/goals/badge2.svg" alt="Picture of Badge 2" />
@@ -105,20 +94,17 @@ the project can be executed correctly. -->
         </a>
     </section>
 
-    <!--WHAT I LEARNED-->
+    <!-- What i learned -->
     <section class="learning container">
       <h2 class="white-text">What I Learned</h2>
-  <!--  END ***********DO NOT CHANGE*******  -->
 
-      <!-- BEGIN ***********CODE THE STEPS BELOW******* -->
-      <!-- ACTIVITY 6: ADD MORE TEXT TO THIS SECTION (PERSONALIZE IT) -->
+      <!-- BEGIN - Activity 6: Goals -->
       <p class="white-text">
         Through this experience, I acquired these skills: (UPDATE ME)
       </p>
-      <!-- END ***********CODE THE STEPS BELOW******* -->
+      <!-- END - Activity 6: Goals -->
 
-  <!--  BEGIN ***********DO NOT CHANGE*******  -->
-  <!-- These are the different badge graphics you see in the "What I Learned" section -->
+      <!-- Content: pentagon badge images -->
       <div class="badges-container flex wrap ai-c jc-se">
         <img class="badge" src="assets/images/goals/learning_badge1.svg" alt="Picture of Learning Badge 1" />
         <img class="badge" src="assets/images/goals/learning_badge2.svg" alt="Picture of Learning Badge 2" />
@@ -133,16 +119,13 @@ the project can be executed correctly. -->
     </section>
   </main>
 
-  <!--FOOTER-->
-  <!-- This section is the code to include all the information at the bottom the home page -->
+  <!-- Footer: information on the bottom of the page -->
   <footer>
     <a href="https://codewithher.org/" target="_blank"><img src="assets/images/cwh-logo.svg" alt="CWH Logo" /></a>
   </footer>
 </body>
-<script src="assets/js/scripts.js"></script>
-<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-<script type="module" src="assets/js/components/promoBanner/promo-banner.js"></script>
-<!--  END ***********DO NOT CHANGE*******  -->
-
-
+  <!-- Scripts: give the page interactive features -->
+  <script src="assets/js/scripts.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <script type="module" src="assets/js/components/promoBanner/promo-banner.js"></script>
 </html>
