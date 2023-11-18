@@ -3,72 +3,72 @@
       "month": "January",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "smores"
+      "image": "lbb-smores"
   },
   {
       "month": "February",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "adventurefuls"
+      "image": "lbb-adventurefuls"
   },
   {
       "month": "March",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "dosidos"
+      "image": "lbb-dosidos"
   },
   {
       "month": "April",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "thinmints"
+      "image": "lbb-thinmints"
   },
   {
       "month": "May",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "tagalongs"
+      "image": "lbb-tagalongs"
   },
   {
       "month": "June",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "lemonups"
+      "image": "lbb-lemonups"
   },
   {
       "month": "July",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "trefoils"
+      "image": "lbb-trefoils"
   },
   {
       "month": "August",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "trefoils"
+      "image": "lbb-trefoils"
   },
   {
       "month": "September",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "samoas"
+      "image": "lbb-samoas"
   },
   {
       "month": "October",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "toffeetastic"
+      "image": "lbb-toffeetastic"
   },
   {
       "month": "November",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "dosidos"
+      "image": "lbb-dosidos"
   },
   {
       "month": "December",
       "name": "Placeholder",
       "description": "To change, visit promo-banner.js and choose your bakery",
-      "image": "smores"
+      "image": "lbb-smores"
   }
 ]
