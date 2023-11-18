@@ -2,55 +2,55 @@
   {
     "name": "Adventurefuls",
     "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
-    "image": "adventurefuls",
+    "image": "lbb-adventurefuls",
     "popular": false
   },
   {
     "name": "Do-si-dos",
     "description": "An oatmeal sandwich cookie with a peanut butter filling.",
-    "image": "dosidos",
+    "image": "lbb-dosidos",
     "popular": false
   },
   {
     "name": "Lemon-ups",
     "description": "A lemon flavored cookie with citrus frosting on the bottom and inspirational messages on top.(UPDATE ME)",
-    "image": "lemonups",
+    "image": "lbb-lemonups",
     "popular": false
   },
   {
     "name": "S'mores",
     "description": "Two graham cracker cookies with chocolate and marshmallow in between.(UPDATE ME)",
-    "image": "smores",
+    "image": "lbb-smores",
     "popular": true
   },
   {
     "name": "Samoas",
     "description": "A caramel dipped cookie with coconut shaving topped with a chocolate drizzle.(UPDATE ME)",
-    "image": "samoas",
+    "image": "lbb-samoas",
     "popular": false
   },
   {
     "name": "Tagalongs",
     "description": "A chocolate covered cookie patty with a peanut butter filling.(UPDATE ME)",
-    "image": "tagalongs",
+    "image": "lbb-tagalongs",
     "popular": false
   },
   {
     "name": "Thin Mints",
     "description": "A chocolate mint cookie covered in extra mint chocolate frosting.(UPDATE ME)",
-    "image": "thinmints",
+    "image": "lbb-thinmints",
     "popular": false
   },
   {
     "name": "Toffeetastic",
     "description": "A gluten-free shortbread cookie with toffee bits.(UPDATE ME)",
-    "image": "toffeetastic",
+    "image": "lbb-toffeetastic",
     "popular": false
   },
   {
     "name": "Trefoils",
     "description": "A traditional shortbread sugar cookie.(UPDATE ME)",
-    "image": "trefoils",
+    "image": "lbb-trefoils",
     "popular": false
   }
 ]

@@ -3,72 +3,72 @@
         "month": "January",
         "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "smores"
+        "image": "abc-toast_yay"
     },
     {
         "month": "February",
         "name": "Adventurefuls",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "adventurefuls"
+        "image": "abc-adventurefuls"
     },
     {
         "month": "March",
         "name": "P. B. Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "dosidos"
+        "image": "abc-pb_sandwich"
     },
     {
         "month": "April",
         "name": "Thin Mints",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "thinmints"
+        "image": "abc-thin_mints"
     },
     {
         "month": "May",
         "name": "P. B. Patties",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "tagalongs"
+        "image": "abc-pb_patties"
     },
     {
         "month": "June",
         "name": "Lemonades",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "lemonups"
+        "image": "abc-lemonades"
     },
     {
         "month": "July",
         "name": "Trefoils",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "trefoils"
+        "image": "abc-trefoils"
     },
     {
         "month": "August",
         "name": "Trefoils",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "trefoils"
+        "image": "abc-trefoils"
     },
     {
         "month": "September",
         "name": "Caramel deLites",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "samoas"
+        "image": "abc-carmel_delite"
     },
     {
         "month": "October",
         "name": "C. C. Chip",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "toffeetastic"
+        "image": "abc-carmel_chocolate_chip"
     },
     {
         "month": "November",
         "name": "P. B. Sandwich",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "dosidos"
+        "image": "abc-pb_sandwich"
     },
     {
         "month": "December",
         "name": "Toast-Yay!",
         "description": "Feeling adventurous? Try this month's signature cookie!",
-        "image": "smores"
+        "image": "abc-toast_yay"
     }
   ]
