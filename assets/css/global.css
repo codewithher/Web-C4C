@@ -32,7 +32,7 @@
 * {
   /* Font Family */
   /* BEGIN - Activity 8: Change Font Family */
-  --ff-primary: "Helvetica";
+  --ff-primary: "Tahoma";
   /* END: Change Font Family */
 }
 
@@ -240,7 +240,7 @@ footer {
 }
 
 .navigation-btn {
-  max-width: 200px;
+  width: fit-content;
   min-width: 160px;
   box-shadow: none;
   border-radius: 4px;
@@ -259,9 +259,8 @@ footer {
 
 .promo-cookie {
   color:var(--clr-primary-lt);
-  -webkit-filter: drop-shadow(5px 0px 5px var(--clr-opacity));
-  filter: drop-shadow(5px 0px 5px var(--clr-opacity));
   line-height: 0.8em;
+  width:fit-content;
   min-width: 400px;
 }
 
