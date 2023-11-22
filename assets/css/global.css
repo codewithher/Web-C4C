@@ -434,10 +434,6 @@ footer {
   .subheader {
     font-size: var();
   }
-
-  .button {
-    max-width: 250px;
-  }
   
   .logo {
     font-size: var(--fs-biggest);
