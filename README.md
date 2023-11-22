@@ -7,4 +7,4 @@ Welcome! This website serves two functions:
 
 Interested in contributing to the source code? Check out [contributing.md](contributing.md)
 
-If you're a Girl Scout, make an account and open up this project in [Replit](https://replit.com/). More details will be on Google Classroom.
+If you're a Girl Scout, make an account and open up this project in [Replit/Web-C4C](https://replit.com/@HigginsCodes/Web-C4C). More details will be on Google Classroom.
